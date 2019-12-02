@@ -1,0 +1,15 @@
+.solution-main code {
+    @apply font-mono;
+    @apply text-gray-700;
+    @apply inline-block;
+    @apply -my-1;
+    @apply px-1;
+    @apply rounded-sm;
+    @apply bg-tint-100;
+    @apply border;
+    @apply border-tint-100;
+    @apply font-mono;
+    @apply text-gray-700;
+    @apply break-all;
+    @apply leading-tight;
+}

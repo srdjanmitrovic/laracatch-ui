@@ -1,0 +1,1788 @@
+{
+    "error": {
+        "id": "550e8400-e29b-41d4-a716-446655440000",
+        "exception_class": "RuntimeException",
+        "seen_at": 1574951,
+        "message": "No application encryption key has been specified.",
+        "application_path": "/home/vagrant/code/lumen55",
+        "environment": "local",
+        "console": false,
+        "location": "http://lumen55.test/",
+        "method": "GET",
+        "breadcrumbs": [],
+        "solutions": [
+            {
+                "title": "The `APP_KEY` configuration variable in the `.env` file is not specified",
+                "description": "Consider running the `php artisan key:generate` command",
+                "links": {
+                    "Encryption Configuration": "https://laravel.com/docs/6.x/encryption#configuration"
+                }
+            }
+        ],
+        "performance": {
+            "memory": {
+                "peak_usage": 2687088,
+                "human_peak_usage": "2.56 MB"
+            },
+            "time": {
+                "start": 1574951310.935274,
+                "end": 1574951311.155193,
+                "duration": 0.21991920471191406,
+                "human_duration": "220 ms"
+            }
+        },
+        "context": {
+            "request": {
+                "url": "http://lumen55.test/",
+                "method": "GET",
+                "ip": "192.168.10.1",
+                "useragent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36"
+            },
+            "request_data": {
+                "query_string": [],
+                "body": null,
+                "files": []
+            },
+            "headers": {
+                "accept-language": [
+                    "it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7"
+                ],
+                "accept-encoding": [
+                    "gzip, deflate"
+                ],
+                "accept": [
+                    "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3"
+                ],
+                "user-agent": [
+                    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36"
+                ],
+                "upgrade-insecure-requests": [
+                    "1"
+                ],
+                "cache-control": [
+                    "max-age=0"
+                ],
+                "connection": [
+                    "keep-alive"
+                ],
+                "host": [
+                    "lumen55.test"
+                ],
+                "content-length": [
+                    ""
+                ],
+                "content-type": [
+                    ""
+                ]
+            },
+            "cookies": [],
+            "session": null,
+            "route": {
+                "route": null,
+                "routeParameters": [],
+                "controllerAction": "Closure",
+                "middleware": [
+                    "web"
+                ]
+            },
+            "user": [],
+            "logs": [],
+            "queries": [],
+            "events": [
+                {
+                    "name": "bootstrapped: Illuminate\\Foundation\\Bootstrap\\BootProviders",
+                    "params": [
+                        {
+                            "contextual": []
+                        }
+                    ],
+                    "listeners": [
+                        "Illuminate\\Events\\{closure} (vendor/laravel/framework/src/Illuminate/Events/Dispatcher.php:345-351)",
+                        "Illuminate\\Events\\{closure} (vendor/laravel/framework/src/Illuminate/Events/Dispatcher.php:345-351)"
+                    ],
+                    "microtime": 1574951311.036493
+                },
+                {
+                    "name": "bootstrapped: Illuminate\\Foundation\\Bootstrap\\BootProviders",
+                    "params": [
+                        {
+                            "contextual": []
+                        }
+                    ],
+                    "listeners": [
+                        "Illuminate\\Events\\{closure} (vendor/laravel/framework/src/Illuminate/Events/Dispatcher.php:345-351)",
+                        "Illuminate\\Events\\{closure} (vendor/laravel/framework/src/Illuminate/Events/Dispatcher.php:345-351)"
+                    ],
+                    "microtime": 1574951311.036542
+                },
+                {
+                    "name": "Illuminate\\Routing\\Events\\RouteMatched",
+                    "params": [
+                        {
+                            "route": {
+                                "uri": "/",
+                                "methods": [
+                                    "GET",
+                                    "HEAD"
+                                ],
+                                "action": {
+                                    "middleware": [
+                                        "web"
+                                    ],
+                                    "uses": {},
+                                    "namespace": "App\\Http\\Controllers",
+                                    "prefix": null,
+                                    "where": []
+                                },
+                                "isFallback": false,
+                                "controller": null,
+                                "defaults": [],
+                                "wheres": [],
+                                "parameters": [],
+                                "parameterNames": [],
+                                "computedMiddleware": [
+                                    "web"
+                                ],
+                                "compiled": {}
+                            },
+                            "request": {
+                                "attributes": {},
+                                "request": {},
+                                "query": {},
+                                "server": {},
+                                "files": {},
+                                "cookies": {},
+                                "headers": {}
+                            }
+                        }
+                    ],
+                    "listeners": [
+                        "Illuminate\\Events\\{closure} (vendor/laravel/framework/src/Illuminate/Events/Dispatcher.php:345-351)",
+                        "Illuminate\\Events\\{closure} (vendor/laravel/framework/src/Illuminate/Events/Dispatcher.php:345-351)"
+                    ],
+                    "microtime": 1574951311.044491
+                },
+                {
+                    "name": "Illuminate\\Routing\\Events\\RouteMatched",
+                    "params": [
+                        {
+                            "route": {
+                                "uri": "/",
+                                "methods": [
+                                    "GET",
+                                    "HEAD"
+                                ],
+                                "action": {
+                                    "middleware": [
+                                        "web"
+                                    ],
+                                    "uses": {},
+                                    "namespace": "App\\Http\\Controllers",
+                                    "prefix": null,
+                                    "where": []
+                                },
+                                "isFallback": false,
+                                "controller": null,
+                                "defaults": [],
+                                "wheres": [],
+                                "parameters": [],
+                                "parameterNames": [],
+                                "computedMiddleware": [
+                                    "web"
+                                ],
+                                "compiled": {}
+                            },
+                            "request": {
+                                "attributes": {},
+                                "request": {},
+                                "query": {},
+                                "server": {},
+                                "files": {},
+                                "cookies": {},
+                                "headers": {}
+                            }
+                        }
+                    ],
+                    "listeners": [
+                        "Illuminate\\Events\\{closure} (vendor/laravel/framework/src/Illuminate/Events/Dispatcher.php:345-351)",
+                        "Illuminate\\Events\\{closure} (vendor/laravel/framework/src/Illuminate/Events/Dispatcher.php:345-351)"
+                    ],
+                    "microtime": 1574951311.044554
+                },
+                {
+                    "name": "Illuminate\\Log\\Events\\MessageLogged",
+                    "params": [
+                        {
+                            "level": "error",
+                            "message": "No application encryption key has been specified.",
+                            "context": {
+                                "exception": {
+                                    "xdebug_message": "<tr><th align='left' bgcolor='#f57900' colspan=\"5\"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> RuntimeException: No application encryption key has been specified. in /home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Encryption/EncryptionServiceProvider.php on line <i>42</i></th></tr>\n<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>\n<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>\n<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0015</td><td bgcolor='#eeeeec' align='right'>355792</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='/home/vagrant/code/lumen55/public/index.php' bgcolor='#eeeeec'>.../index.php<b>:</b>0</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0418</td><td bgcolor='#eeeeec' align='right'>771576</td><td bgcolor='#eeeeec'>App\\Http\\Kernel->handle(  )</td><td title='/home/vagrant/code/lumen55/public/index.php' bgcolor='#eeeeec'>.../index.php<b>:</b>55</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.0418</td><td bgcolor='#eeeeec' align='right'>771576</td><td bgcolor='#eeeeec'>App\\Http\\Kernel->sendRequestThroughRouter(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php' bgcolor='#eeeeec'>.../Kernel.php<b>:</b>116</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.1037</td><td bgcolor='#eeeeec' align='right'>1860328</td><td bgcolor='#eeeeec'>Illuminate\\Routing\\Pipeline->then(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php' bgcolor='#eeeeec'>.../Kernel.php<b>:</b>151</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>5</td><td bgcolor='#eeeeec' align='center'>0.1037</td><td bgcolor='#eeeeec' align='right'>1864504</td><td bgcolor='#eeeeec'>Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php' bgcolor='#eeeeec'>.../Pipeline.php<b>:</b>102</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>6</td><td bgcolor='#eeeeec' align='center'>0.1037</td><td bgcolor='#eeeeec' align='right'>1865520</td><td bgcolor='#eeeeec'>Illuminate\\Routing\\Pipeline->Illuminate\\Pipeline\\{closure}(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php' bgcolor='#eeeeec'>.../Pipeline.php<b>:</b>53</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>7</td><td bgcolor='#eeeeec' align='center'>0.1041</td><td bgcolor='#eeeeec' align='right'>1866608</td><td bgcolor='#eeeeec'>Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode->handle(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php' bgcolor='#eeeeec'>.../Pipeline.php<b>:</b>149</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>8</td><td bgcolor='#eeeeec' align='center'>0.1042</td><td bgcolor='#eeeeec' align='right'>1866608</td><td bgcolor='#eeeeec'>Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php' bgcolor='#eeeeec'>.../CheckForMaintenanceMode.php<b>:</b>46</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>9</td><td bgcolor='#eeeeec' align='center'>0.1042</td><td bgcolor='#eeeeec' align='right'>1867624</td><td bgcolor='#eeeeec'>Illuminate\\Routing\\Pipeline->Illuminate\\Pipeline\\{closure}(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php' bgcolor='#eeeeec'>.../Pipeline.php<b>:</b>53</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>10</td><td bgcolor='#eeeeec' align='center'>0.1046</td><td bgcolor='#eeeeec' align='right'>1868360</td><td bgcolor='#eeeeec'>Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php' bgcolor='#eeeeec'>.../Pipeline.php<b>:</b>149</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>11</td><td bgcolor='#eeeeec' align='center'>0.1046</td><td bgcolor='#eeeeec' align='right'>1868360</td><td bgcolor='#eeeeec'>Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php' bgcolor='#eeeeec'>.../ValidatePostSize.php<b>:</b>27</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>12</td><td bgcolor='#eeeeec' align='center'>0.1046</td><td bgcolor='#eeeeec' align='right'>1869376</td><td bgcolor='#eeeeec'>Illuminate\\Routing\\Pipeline->Illuminate\\Pipeline\\{closure}(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php' bgcolor='#eeeeec'>.../Pipeline.php<b>:</b>53</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>13</td><td bgcolor='#eeeeec' align='center'>0.1055</td><td bgcolor='#eeeeec' align='right'>1871864</td><td bgcolor='#eeeeec'>App\\Http\\Middleware\\TrimStrings->handle(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php' bgcolor='#eeeeec'>.../Pipeline.php<b>:</b>149</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>14</td><td bgcolor='#eeeeec' align='center'>0.1056</td><td bgcolor='#eeeeec' align='right'>1871976</td><td bgcolor='#eeeeec'>Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php' bgcolor='#eeeeec'>.../TransformsRequest.php<b>:</b>30</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>15</td><td bgcolor='#eeeeec' align='center'>0.1056</td><td bgcolor='#eeeeec' align='right'>1872992</td><td bgcolor='#eeeeec'>Illuminate\\Routing\\Pipeline->Illuminate\\Pipeline\\{closure}(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php' bgcolor='#eeeeec'>.../Pipeline.php<b>:</b>53</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>16</td><td bgcolor='#eeeeec' align='center'>0.1059</td><td bgcolor='#eeeeec' align='right'>1874080</td><td bgcolor='#eeeeec'>Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php' bgcolor='#eeeeec'>.../Pipeline.php<b>:</b>149</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>17</td><td bgcolor='#eeeeec' align='center'>0.1060</td><td bgcolor='#eeeeec' align='right'>1874136</td><td bgcolor='#eeeeec'>Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php' bgcolor='#eeeeec'>.../TransformsRequest.php<b>:</b>30</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>18</td><td bgcolor='#eeeeec' align='center'>0.1060</td><td bgcolor='#eeeeec' align='right'>1875152</td><td bgcolor='#eeeeec'>Illuminate\\Routing\\Pipeline->Illuminate\\Pipeline\\{closure}(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php' bgcolor='#eeeeec'>.../Pipeline.php<b>:</b>53</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>19</td><td bgcolor='#eeeeec' align='center'>0.1065</td><td bgcolor='#eeeeec' align='right'>1878080</td><td bgcolor='#eeeeec'>App\\Http\\Middleware\\TrustProxies->handle(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php' bgcolor='#eeeeec'>.../Pipeline.php<b>:</b>149</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>20</td><td bgcolor='#eeeeec' align='center'>0.1066</td><td bgcolor='#eeeeec' align='right'>1955904</td><td bgcolor='#eeeeec'>Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(  )</td><td title='/home/vagrant/code/lumen55/vendor/fideloper/proxy/src/TrustProxies.php' bgcolor='#eeeeec'>.../TrustProxies.php<b>:</b>56</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>21</td><td bgcolor='#eeeeec' align='center'>0.1066</td><td bgcolor='#eeeeec' align='right'>1955904</td><td bgcolor='#eeeeec'>App\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php' bgcolor='#eeeeec'>.../Pipeline.php<b>:</b>30</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>22</td><td bgcolor='#eeeeec' align='center'>0.1066</td><td bgcolor='#eeeeec' align='right'>1956600</td><td bgcolor='#eeeeec'>Illuminate\\Routing\\Router->dispatch(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php' bgcolor='#eeeeec'>.../Kernel.php<b>:</b>176</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>23</td><td bgcolor='#eeeeec' align='center'>0.1066</td><td bgcolor='#eeeeec' align='right'>1956600</td><td bgcolor='#eeeeec'>Illuminate\\Routing\\Router->dispatchToRoute(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Routing/Router.php' bgcolor='#eeeeec'>.../Router.php<b>:</b>590</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>24</td><td bgcolor='#eeeeec' align='center'>0.1103</td><td bgcolor='#eeeeec' align='right'>1973600</td><td bgcolor='#eeeeec'>Illuminate\\Routing\\Router->runRoute(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Routing/Router.php' bgcolor='#eeeeec'>.../Router.php<b>:</b>601</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>25</td><td bgcolor='#eeeeec' align='center'>0.1108</td><td bgcolor='#eeeeec' align='right'>1978488</td><td bgcolor='#eeeeec'>Illuminate\\Routing\\Router->runRouteWithinStack(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Routing/Router.php' bgcolor='#eeeeec'>.../Router.php<b>:</b>635</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>26</td><td bgcolor='#eeeeec' align='center'>0.1115</td><td bgcolor='#eeeeec' align='right'>1989032</td><td bgcolor='#eeeeec'>Illuminate\\Routing\\Pipeline->then(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Routing/Router.php' bgcolor='#eeeeec'>.../Router.php<b>:</b>660</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>27</td><td bgcolor='#eeeeec' align='center'>0.1115</td><td bgcolor='#eeeeec' align='right'>1993904</td><td bgcolor='#eeeeec'>Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php' bgcolor='#eeeeec'>.../Pipeline.php<b>:</b>102</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>28</td><td bgcolor='#eeeeec' align='center'>0.1115</td><td bgcolor='#eeeeec' align='right'>1994920</td><td bgcolor='#eeeeec'>Illuminate\\Routing\\Pipeline->Illuminate\\Pipeline\\{closure}(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php' bgcolor='#eeeeec'>.../Pipeline.php<b>:</b>53</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>29</td><td bgcolor='#eeeeec' align='center'>0.1115</td><td bgcolor='#eeeeec' align='right'>1994920</td><td bgcolor='#eeeeec'>Illuminate\\Foundation\\Application->make(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php' bgcolor='#eeeeec'>.../Pipeline.php<b>:</b>138</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>30</td><td bgcolor='#eeeeec' align='center'>0.1115</td><td bgcolor='#eeeeec' align='right'>1994920</td><td bgcolor='#eeeeec'>Illuminate\\Foundation\\Application->make(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Foundation/Application.php' bgcolor='#eeeeec'>.../Application.php<b>:</b>732</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>31</td><td bgcolor='#eeeeec' align='center'>0.1115</td><td bgcolor='#eeeeec' align='right'>1994920</td><td bgcolor='#eeeeec'>Illuminate\\Foundation\\Application->resolve(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Container/Container.php' bgcolor='#eeeeec'>.../Container.php<b>:</b>586</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>32</td><td bgcolor='#eeeeec' align='center'>0.1115</td><td bgcolor='#eeeeec' align='right'>1994920</td><td bgcolor='#eeeeec'>Illuminate\\Foundation\\Application->build(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Container/Container.php' bgcolor='#eeeeec'>.../Container.php<b>:</b>631</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>33</td><td bgcolor='#eeeeec' align='center'>0.1120</td><td bgcolor='#eeeeec' align='right'>1997728</td><td bgcolor='#eeeeec'>Illuminate\\Foundation\\Application->resolveDependencies(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Container/Container.php' bgcolor='#eeeeec'>.../Container.php<b>:</b>780</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>34</td><td bgcolor='#eeeeec' align='center'>0.1123</td><td bgcolor='#eeeeec' align='right'>2006240</td><td bgcolor='#eeeeec'>Illuminate\\Foundation\\Application->resolveClass(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Container/Container.php' bgcolor='#eeeeec'>.../Container.php<b>:</b>813</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>35</td><td bgcolor='#eeeeec' align='center'>0.1123</td><td bgcolor='#eeeeec' align='right'>2006240</td><td bgcolor='#eeeeec'>Illuminate\\Foundation\\Application->make(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Container/Container.php' bgcolor='#eeeeec'>.../Container.php<b>:</b>885</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>36</td><td bgcolor='#eeeeec' align='center'>0.1124</td><td bgcolor='#eeeeec' align='right'>2006240</td><td bgcolor='#eeeeec'>Illuminate\\Foundation\\Application->make(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Foundation/Application.php' bgcolor='#eeeeec'>.../Application.php<b>:</b>732</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>37</td><td bgcolor='#eeeeec' align='center'>0.1124</td><td bgcolor='#eeeeec' align='right'>2006240</td><td bgcolor='#eeeeec'>Illuminate\\Foundation\\Application->resolve(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Container/Container.php' bgcolor='#eeeeec'>.../Container.php<b>:</b>586</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>38</td><td bgcolor='#eeeeec' align='center'>0.1124</td><td bgcolor='#eeeeec' align='right'>2006240</td><td bgcolor='#eeeeec'>Illuminate\\Foundation\\Application->build(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Container/Container.php' bgcolor='#eeeeec'>.../Container.php<b>:</b>631</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>39</td><td bgcolor='#eeeeec' align='center'>0.1124</td><td bgcolor='#eeeeec' align='right'>2006240</td><td bgcolor='#eeeeec'>Illuminate\\Encryption\\EncryptionServiceProvider->Illuminate\\Encryption\\{closure}(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Container/Container.php' bgcolor='#eeeeec'>.../Container.php<b>:</b>749</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>40</td><td bgcolor='#eeeeec' align='center'>0.1124</td><td bgcolor='#eeeeec' align='right'>2006240</td><td bgcolor='#eeeeec'>Illuminate\\Encryption\\EncryptionServiceProvider->key(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Encryption/EncryptionServiceProvider.php' bgcolor='#eeeeec'>.../EncryptionServiceProvider.php<b>:</b>24</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>41</td><td bgcolor='#eeeeec' align='center'>0.1124</td><td bgcolor='#eeeeec' align='right'>2006560</td><td bgcolor='#eeeeec'>tap(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Encryption/EncryptionServiceProvider.php' bgcolor='#eeeeec'>.../EncryptionServiceProvider.php<b>:</b>46</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>42</td><td bgcolor='#eeeeec' align='center'>0.1124</td><td bgcolor='#eeeeec' align='right'>2006560</td><td bgcolor='#eeeeec'>Illuminate\\Encryption\\EncryptionServiceProvider->Illuminate\\Encryption\\{closure}(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Support/helpers.php' bgcolor='#eeeeec'>.../helpers.php<b>:</b>1038</td></tr>\n"
+                                }
+                            }
+                        }
+                    ],
+                    "listeners": [
+                        "Illuminate\\Events\\{closure} (vendor/laravel/framework/src/Illuminate/Events/Dispatcher.php:345-351)",
+                        "Illuminate\\Events\\{closure} (vendor/laravel/framework/src/Illuminate/Events/Dispatcher.php:345-351)",
+                        "Illuminate\\Events\\{closure} (vendor/laravel/framework/src/Illuminate/Events/Dispatcher.php:345-351)",
+                        "Illuminate\\Events\\{closure} (vendor/laravel/framework/src/Illuminate/Events/Dispatcher.php:345-351)",
+                        "Illuminate\\Events\\{closure} (vendor/laravel/framework/src/Illuminate/Events/Dispatcher.php:345-351)"
+                    ],
+                    "microtime": 1574951311.146698
+                },
+                {
+                    "name": "Illuminate\\Log\\Events\\MessageLogged",
+                    "params": [
+                        {
+                            "level": "error",
+                            "message": "No application encryption key has been specified.",
+                            "context": {
+                                "exception": {
+                                    "xdebug_message": "<tr><th align='left' bgcolor='#f57900' colspan=\"5\"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> RuntimeException: No application encryption key has been specified. in /home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Encryption/EncryptionServiceProvider.php on line <i>42</i></th></tr>\n<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>\n<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>\n<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0015</td><td bgcolor='#eeeeec' align='right'>355792</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='/home/vagrant/code/lumen55/public/index.php' bgcolor='#eeeeec'>.../index.php<b>:</b>0</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0418</td><td bgcolor='#eeeeec' align='right'>771576</td><td bgcolor='#eeeeec'>App\\Http\\Kernel->handle(  )</td><td title='/home/vagrant/code/lumen55/public/index.php' bgcolor='#eeeeec'>.../index.php<b>:</b>55</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.0418</td><td bgcolor='#eeeeec' align='right'>771576</td><td bgcolor='#eeeeec'>App\\Http\\Kernel->sendRequestThroughRouter(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php' bgcolor='#eeeeec'>.../Kernel.php<b>:</b>116</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.1037</td><td bgcolor='#eeeeec' align='right'>1860328</td><td bgcolor='#eeeeec'>Illuminate\\Routing\\Pipeline->then(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php' bgcolor='#eeeeec'>.../Kernel.php<b>:</b>151</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>5</td><td bgcolor='#eeeeec' align='center'>0.1037</td><td bgcolor='#eeeeec' align='right'>1864504</td><td bgcolor='#eeeeec'>Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php' bgcolor='#eeeeec'>.../Pipeline.php<b>:</b>102</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>6</td><td bgcolor='#eeeeec' align='center'>0.1037</td><td bgcolor='#eeeeec' align='right'>1865520</td><td bgcolor='#eeeeec'>Illuminate\\Routing\\Pipeline->Illuminate\\Pipeline\\{closure}(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php' bgcolor='#eeeeec'>.../Pipeline.php<b>:</b>53</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>7</td><td bgcolor='#eeeeec' align='center'>0.1041</td><td bgcolor='#eeeeec' align='right'>1866608</td><td bgcolor='#eeeeec'>Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode->handle(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php' bgcolor='#eeeeec'>.../Pipeline.php<b>:</b>149</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>8</td><td bgcolor='#eeeeec' align='center'>0.1042</td><td bgcolor='#eeeeec' align='right'>1866608</td><td bgcolor='#eeeeec'>Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php' bgcolor='#eeeeec'>.../CheckForMaintenanceMode.php<b>:</b>46</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>9</td><td bgcolor='#eeeeec' align='center'>0.1042</td><td bgcolor='#eeeeec' align='right'>1867624</td><td bgcolor='#eeeeec'>Illuminate\\Routing\\Pipeline->Illuminate\\Pipeline\\{closure}(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php' bgcolor='#eeeeec'>.../Pipeline.php<b>:</b>53</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>10</td><td bgcolor='#eeeeec' align='center'>0.1046</td><td bgcolor='#eeeeec' align='right'>1868360</td><td bgcolor='#eeeeec'>Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php' bgcolor='#eeeeec'>.../Pipeline.php<b>:</b>149</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>11</td><td bgcolor='#eeeeec' align='center'>0.1046</td><td bgcolor='#eeeeec' align='right'>1868360</td><td bgcolor='#eeeeec'>Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php' bgcolor='#eeeeec'>.../ValidatePostSize.php<b>:</b>27</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>12</td><td bgcolor='#eeeeec' align='center'>0.1046</td><td bgcolor='#eeeeec' align='right'>1869376</td><td bgcolor='#eeeeec'>Illuminate\\Routing\\Pipeline->Illuminate\\Pipeline\\{closure}(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php' bgcolor='#eeeeec'>.../Pipeline.php<b>:</b>53</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>13</td><td bgcolor='#eeeeec' align='center'>0.1055</td><td bgcolor='#eeeeec' align='right'>1871864</td><td bgcolor='#eeeeec'>App\\Http\\Middleware\\TrimStrings->handle(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php' bgcolor='#eeeeec'>.../Pipeline.php<b>:</b>149</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>14</td><td bgcolor='#eeeeec' align='center'>0.1056</td><td bgcolor='#eeeeec' align='right'>1871976</td><td bgcolor='#eeeeec'>Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php' bgcolor='#eeeeec'>.../TransformsRequest.php<b>:</b>30</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>15</td><td bgcolor='#eeeeec' align='center'>0.1056</td><td bgcolor='#eeeeec' align='right'>1872992</td><td bgcolor='#eeeeec'>Illuminate\\Routing\\Pipeline->Illuminate\\Pipeline\\{closure}(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php' bgcolor='#eeeeec'>.../Pipeline.php<b>:</b>53</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>16</td><td bgcolor='#eeeeec' align='center'>0.1059</td><td bgcolor='#eeeeec' align='right'>1874080</td><td bgcolor='#eeeeec'>Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php' bgcolor='#eeeeec'>.../Pipeline.php<b>:</b>149</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>17</td><td bgcolor='#eeeeec' align='center'>0.1060</td><td bgcolor='#eeeeec' align='right'>1874136</td><td bgcolor='#eeeeec'>Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php' bgcolor='#eeeeec'>.../TransformsRequest.php<b>:</b>30</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>18</td><td bgcolor='#eeeeec' align='center'>0.1060</td><td bgcolor='#eeeeec' align='right'>1875152</td><td bgcolor='#eeeeec'>Illuminate\\Routing\\Pipeline->Illuminate\\Pipeline\\{closure}(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php' bgcolor='#eeeeec'>.../Pipeline.php<b>:</b>53</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>19</td><td bgcolor='#eeeeec' align='center'>0.1065</td><td bgcolor='#eeeeec' align='right'>1878080</td><td bgcolor='#eeeeec'>App\\Http\\Middleware\\TrustProxies->handle(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php' bgcolor='#eeeeec'>.../Pipeline.php<b>:</b>149</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>20</td><td bgcolor='#eeeeec' align='center'>0.1066</td><td bgcolor='#eeeeec' align='right'>1955904</td><td bgcolor='#eeeeec'>Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(  )</td><td title='/home/vagrant/code/lumen55/vendor/fideloper/proxy/src/TrustProxies.php' bgcolor='#eeeeec'>.../TrustProxies.php<b>:</b>56</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>21</td><td bgcolor='#eeeeec' align='center'>0.1066</td><td bgcolor='#eeeeec' align='right'>1955904</td><td bgcolor='#eeeeec'>App\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php' bgcolor='#eeeeec'>.../Pipeline.php<b>:</b>30</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>22</td><td bgcolor='#eeeeec' align='center'>0.1066</td><td bgcolor='#eeeeec' align='right'>1956600</td><td bgcolor='#eeeeec'>Illuminate\\Routing\\Router->dispatch(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php' bgcolor='#eeeeec'>.../Kernel.php<b>:</b>176</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>23</td><td bgcolor='#eeeeec' align='center'>0.1066</td><td bgcolor='#eeeeec' align='right'>1956600</td><td bgcolor='#eeeeec'>Illuminate\\Routing\\Router->dispatchToRoute(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Routing/Router.php' bgcolor='#eeeeec'>.../Router.php<b>:</b>590</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>24</td><td bgcolor='#eeeeec' align='center'>0.1103</td><td bgcolor='#eeeeec' align='right'>1973600</td><td bgcolor='#eeeeec'>Illuminate\\Routing\\Router->runRoute(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Routing/Router.php' bgcolor='#eeeeec'>.../Router.php<b>:</b>601</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>25</td><td bgcolor='#eeeeec' align='center'>0.1108</td><td bgcolor='#eeeeec' align='right'>1978488</td><td bgcolor='#eeeeec'>Illuminate\\Routing\\Router->runRouteWithinStack(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Routing/Router.php' bgcolor='#eeeeec'>.../Router.php<b>:</b>635</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>26</td><td bgcolor='#eeeeec' align='center'>0.1115</td><td bgcolor='#eeeeec' align='right'>1989032</td><td bgcolor='#eeeeec'>Illuminate\\Routing\\Pipeline->then(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Routing/Router.php' bgcolor='#eeeeec'>.../Router.php<b>:</b>660</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>27</td><td bgcolor='#eeeeec' align='center'>0.1115</td><td bgcolor='#eeeeec' align='right'>1993904</td><td bgcolor='#eeeeec'>Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php' bgcolor='#eeeeec'>.../Pipeline.php<b>:</b>102</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>28</td><td bgcolor='#eeeeec' align='center'>0.1115</td><td bgcolor='#eeeeec' align='right'>1994920</td><td bgcolor='#eeeeec'>Illuminate\\Routing\\Pipeline->Illuminate\\Pipeline\\{closure}(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php' bgcolor='#eeeeec'>.../Pipeline.php<b>:</b>53</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>29</td><td bgcolor='#eeeeec' align='center'>0.1115</td><td bgcolor='#eeeeec' align='right'>1994920</td><td bgcolor='#eeeeec'>Illuminate\\Foundation\\Application->make(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php' bgcolor='#eeeeec'>.../Pipeline.php<b>:</b>138</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>30</td><td bgcolor='#eeeeec' align='center'>0.1115</td><td bgcolor='#eeeeec' align='right'>1994920</td><td bgcolor='#eeeeec'>Illuminate\\Foundation\\Application->make(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Foundation/Application.php' bgcolor='#eeeeec'>.../Application.php<b>:</b>732</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>31</td><td bgcolor='#eeeeec' align='center'>0.1115</td><td bgcolor='#eeeeec' align='right'>1994920</td><td bgcolor='#eeeeec'>Illuminate\\Foundation\\Application->resolve(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Container/Container.php' bgcolor='#eeeeec'>.../Container.php<b>:</b>586</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>32</td><td bgcolor='#eeeeec' align='center'>0.1115</td><td bgcolor='#eeeeec' align='right'>1994920</td><td bgcolor='#eeeeec'>Illuminate\\Foundation\\Application->build(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Container/Container.php' bgcolor='#eeeeec'>.../Container.php<b>:</b>631</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>33</td><td bgcolor='#eeeeec' align='center'>0.1120</td><td bgcolor='#eeeeec' align='right'>1997728</td><td bgcolor='#eeeeec'>Illuminate\\Foundation\\Application->resolveDependencies(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Container/Container.php' bgcolor='#eeeeec'>.../Container.php<b>:</b>780</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>34</td><td bgcolor='#eeeeec' align='center'>0.1123</td><td bgcolor='#eeeeec' align='right'>2006240</td><td bgcolor='#eeeeec'>Illuminate\\Foundation\\Application->resolveClass(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Container/Container.php' bgcolor='#eeeeec'>.../Container.php<b>:</b>813</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>35</td><td bgcolor='#eeeeec' align='center'>0.1123</td><td bgcolor='#eeeeec' align='right'>2006240</td><td bgcolor='#eeeeec'>Illuminate\\Foundation\\Application->make(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Container/Container.php' bgcolor='#eeeeec'>.../Container.php<b>:</b>885</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>36</td><td bgcolor='#eeeeec' align='center'>0.1124</td><td bgcolor='#eeeeec' align='right'>2006240</td><td bgcolor='#eeeeec'>Illuminate\\Foundation\\Application->make(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Foundation/Application.php' bgcolor='#eeeeec'>.../Application.php<b>:</b>732</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>37</td><td bgcolor='#eeeeec' align='center'>0.1124</td><td bgcolor='#eeeeec' align='right'>2006240</td><td bgcolor='#eeeeec'>Illuminate\\Foundation\\Application->resolve(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Container/Container.php' bgcolor='#eeeeec'>.../Container.php<b>:</b>586</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>38</td><td bgcolor='#eeeeec' align='center'>0.1124</td><td bgcolor='#eeeeec' align='right'>2006240</td><td bgcolor='#eeeeec'>Illuminate\\Foundation\\Application->build(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Container/Container.php' bgcolor='#eeeeec'>.../Container.php<b>:</b>631</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>39</td><td bgcolor='#eeeeec' align='center'>0.1124</td><td bgcolor='#eeeeec' align='right'>2006240</td><td bgcolor='#eeeeec'>Illuminate\\Encryption\\EncryptionServiceProvider->Illuminate\\Encryption\\{closure}(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Container/Container.php' bgcolor='#eeeeec'>.../Container.php<b>:</b>749</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>40</td><td bgcolor='#eeeeec' align='center'>0.1124</td><td bgcolor='#eeeeec' align='right'>2006240</td><td bgcolor='#eeeeec'>Illuminate\\Encryption\\EncryptionServiceProvider->key(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Encryption/EncryptionServiceProvider.php' bgcolor='#eeeeec'>.../EncryptionServiceProvider.php<b>:</b>24</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>41</td><td bgcolor='#eeeeec' align='center'>0.1124</td><td bgcolor='#eeeeec' align='right'>2006560</td><td bgcolor='#eeeeec'>tap(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Encryption/EncryptionServiceProvider.php' bgcolor='#eeeeec'>.../EncryptionServiceProvider.php<b>:</b>46</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>42</td><td bgcolor='#eeeeec' align='center'>0.1124</td><td bgcolor='#eeeeec' align='right'>2006560</td><td bgcolor='#eeeeec'>Illuminate\\Encryption\\EncryptionServiceProvider->Illuminate\\Encryption\\{closure}(  )</td><td title='/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Support/helpers.php' bgcolor='#eeeeec'>.../helpers.php<b>:</b>1038</td></tr>\n"
+                                }
+                            }
+                        }
+                    ],
+                    "listeners": [
+                        "Illuminate\\Events\\{closure} (vendor/laravel/framework/src/Illuminate/Events/Dispatcher.php:345-351)",
+                        "Illuminate\\Events\\{closure} (vendor/laravel/framework/src/Illuminate/Events/Dispatcher.php:345-351)",
+                        "Illuminate\\Events\\{closure} (vendor/laravel/framework/src/Illuminate/Events/Dispatcher.php:345-351)",
+                        "Illuminate\\Events\\{closure} (vendor/laravel/framework/src/Illuminate/Events/Dispatcher.php:345-351)",
+                        "Illuminate\\Events\\{closure} (vendor/laravel/framework/src/Illuminate/Events/Dispatcher.php:345-351)"
+                    ],
+                    "microtime": 1574951311.146779
+                }
+            ],
+            "dumps": [],
+            "framework": {
+                "laravel_version": "5.5.48",
+                "laravel_locale": "en",
+                "laravel_config_cached": false,
+                "php_version": "7.1.23-4+ubuntu18.04.1+deb.sury.org+1"
+            },
+            "view": null,
+            "git": {
+                "isInitialized": false,
+                "hash": "",
+                "message": "",
+                "tag": "",
+                "remote": "",
+                "isDirty": false
+            }
+        },
+        "stacktrace": [
+            {
+                "class": "Illuminate\\Encryption\\EncryptionServiceProvider",
+                "method": "Illuminate\\Encryption\\{closure}",
+                "args": [
+                    ""
+                ],
+                "type": "method",
+                "file": "/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Encryption/EncryptionServiceProvider.php",
+                "relative_file": "vendor/laravel/framework/src/Illuminate/Encryption/EncryptionServiceProvider.php",
+                "line_number": 42,
+                "code_snippet": {
+                    "32": "    /**",
+                    "33": "     * Extract the encryption key from the given configuration.",
+                    "34": "     *",
+                    "35": "     * @param  array  $config",
+                    "36": "     * @return string",
+                    "37": "     */",
+                    "38": "    protected function key(array $config)",
+                    "39": "    {",
+                    "40": "        return tap($config['key'], function ($key) {",
+                    "41": "            if (empty($key)) {",
+                    "42": "                throw new RuntimeException(",
+                    "43": "                    'No application encryption key has been specified.'",
+                    "44": "                );",
+                    "45": "            }",
+                    "46": "        });",
+                    "47": "    }",
+                    "48": "}",
+                    "49": ""
+                }
+            },
+            {
+                "class": null,
+                "method": "tap",
+                "args": [
+                    "",
+                    "Closure"
+                ],
+                "type": "function",
+                "file": "/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Support/helpers.php",
+                "relative_file": "vendor/laravel/framework/src/Illuminate/Support/helpers.php",
+                "line_number": 1038,
+                "code_snippet": {
+                    "1028": "     * @param  mixed  $value",
+                    "1029": "     * @param  callable|null  $callback",
+                    "1030": "     * @return mixed",
+                    "1031": "     */",
+                    "1032": "    function tap($value, $callback = null)",
+                    "1033": "    {",
+                    "1034": "        if (is_null($callback)) {",
+                    "1035": "            return new HigherOrderTapProxy($value);",
+                    "1036": "        }",
+                    "1037": "",
+                    "1038": "        $callback($value);",
+                    "1039": "",
+                    "1040": "        return $value;",
+                    "1041": "    }",
+                    "1042": "}",
+                    "1043": "",
+                    "1044": "if (! function_exists('throw_if')) {",
+                    "1045": "    /**",
+                    "1046": "     * Throw the given exception if the given condition is true.",
+                    "1047": "     *",
+                    "1048": "     * @param  mixed  $condition"
+                }
+            },
+            {
+                "class": "Illuminate\\Encryption\\EncryptionServiceProvider",
+                "method": "key",
+                "args": [
+                    {
+                        "name": "Laravel",
+                        "env": "local",
+                        "debug": "true",
+                        "url": "http://localhost",
+                        "timezone": "UTC",
+                        "locale": "en",
+                        "fallback_locale": "en",
+                        "key": "",
+                        "cipher": "AES-256-CBC",
+                        "log": "single",
+                        "log_level": "debug",
+                        "providers": [
+                            "Illuminate\\Auth\\AuthServiceProvider",
+                            "Illuminate\\Broadcasting\\BroadcastServiceProvider",
+                            "Illuminate\\Bus\\BusServiceProvider",
+                            "Illuminate\\Cache\\CacheServiceProvider",
+                            "Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider",
+                            "Illuminate\\Cookie\\CookieServiceProvider",
+                            "Illuminate\\Database\\DatabaseServiceProvider",
+                            "Illuminate\\Encryption\\EncryptionServiceProvider",
+                            "Illuminate\\Filesystem\\FilesystemServiceProvider",
+                            "Illuminate\\Foundation\\Providers\\FoundationServiceProvider",
+                            "Illuminate\\Hashing\\HashServiceProvider",
+                            "Illuminate\\Mail\\MailServiceProvider",
+                            "Illuminate\\Notifications\\NotificationServiceProvider",
+                            "Illuminate\\Pagination\\PaginationServiceProvider",
+                            "Illuminate\\Pipeline\\PipelineServiceProvider",
+                            "Illuminate\\Queue\\QueueServiceProvider",
+                            "Illuminate\\Redis\\RedisServiceProvider",
+                            "Illuminate\\Auth\\Passwords\\PasswordResetServiceProvider",
+                            "Illuminate\\Session\\SessionServiceProvider",
+                            "Illuminate\\Translation\\TranslationServiceProvider",
+                            "Illuminate\\Validation\\ValidationServiceProvider",
+                            "Illuminate\\View\\ViewServiceProvider",
+                            "App\\Providers\\AppServiceProvider",
+                            "App\\Providers\\AuthServiceProvider",
+                            "App\\Providers\\EventServiceProvider",
+                            "App\\Providers\\RouteServiceProvider"
+                        ],
+                        "aliases": {
+                            "App": "Illuminate\\Support\\Facades\\App",
+                            "Artisan": "Illuminate\\Support\\Facades\\Artisan",
+                            "Auth": "Illuminate\\Support\\Facades\\Auth",
+                            "Blade": "Illuminate\\Support\\Facades\\Blade",
+                            "Broadcast": "Illuminate\\Support\\Facades\\Broadcast",
+                            "Bus": "Illuminate\\Support\\Facades\\Bus",
+                            "Cache": "Illuminate\\Support\\Facades\\Cache",
+                            "Config": "Illuminate\\Support\\Facades\\Config",
+                            "Cookie": "Illuminate\\Support\\Facades\\Cookie",
+                            "Crypt": "Illuminate\\Support\\Facades\\Crypt",
+                            "DB": "Illuminate\\Support\\Facades\\DB",
+                            "Eloquent": "Illuminate\\Database\\Eloquent\\Model",
+                            "Event": "Illuminate\\Support\\Facades\\Event",
+                            "File": "Illuminate\\Support\\Facades\\File",
+                            "Gate": "Illuminate\\Support\\Facades\\Gate",
+                            "Hash": "Illuminate\\Support\\Facades\\Hash",
+                            "Lang": "Illuminate\\Support\\Facades\\Lang",
+                            "Log": "Illuminate\\Support\\Facades\\Log",
+                            "Mail": "Illuminate\\Support\\Facades\\Mail",
+                            "Notification": "Illuminate\\Support\\Facades\\Notification",
+                            "Password": "Illuminate\\Support\\Facades\\Password",
+                            "Queue": "Illuminate\\Support\\Facades\\Queue",
+                            "Redirect": "Illuminate\\Support\\Facades\\Redirect",
+                            "Redis": "Illuminate\\Support\\Facades\\Redis",
+                            "Request": "Illuminate\\Support\\Facades\\Request",
+                            "Response": "Illuminate\\Support\\Facades\\Response",
+                            "Route": "Illuminate\\Support\\Facades\\Route",
+                            "Schema": "Illuminate\\Support\\Facades\\Schema",
+                            "Session": "Illuminate\\Support\\Facades\\Session",
+                            "Storage": "Illuminate\\Support\\Facades\\Storage",
+                            "URL": "Illuminate\\Support\\Facades\\URL",
+                            "Validator": "Illuminate\\Support\\Facades\\Validator",
+                            "View": "Illuminate\\Support\\Facades\\View"
+                        }
+                    }
+                ],
+                "type": "method",
+                "file": "/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Encryption/EncryptionServiceProvider.php",
+                "relative_file": "vendor/laravel/framework/src/Illuminate/Encryption/EncryptionServiceProvider.php",
+                "line_number": 46,
+                "code_snippet": {
+                    "36": "     * @return string",
+                    "37": "     */",
+                    "38": "    protected function key(array $config)",
+                    "39": "    {",
+                    "40": "        return tap($config['key'], function ($key) {",
+                    "41": "            if (empty($key)) {",
+                    "42": "                throw new RuntimeException(",
+                    "43": "                    'No application encryption key has been specified.'",
+                    "44": "                );",
+                    "45": "            }",
+                    "46": "        });",
+                    "47": "    }",
+                    "48": "}",
+                    "49": ""
+                }
+            },
+            {
+                "class": "Illuminate\\Encryption\\EncryptionServiceProvider",
+                "method": "Illuminate\\Encryption\\{closure}",
+                "args": [
+                    "Illuminate\\Foundation\\Application",
+                    []
+                ],
+                "type": "method",
+                "file": "/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Encryption/EncryptionServiceProvider.php",
+                "relative_file": "vendor/laravel/framework/src/Illuminate/Encryption/EncryptionServiceProvider.php",
+                "line_number": 24,
+                "code_snippet": {
+                    "14": "     * @return void",
+                    "15": "     */",
+                    "16": "    public function register()",
+                    "17": "    {",
+                    "18": "        $this->app->singleton('encrypter', function ($app) {",
+                    "19": "            $config = $app->make('config')->get('app');",
+                    "20": "",
+                    "21": "            // If the key starts with \"base64:\", we will need to decode the key before handing",
+                    "22": "            // it off to the encrypter. Keys may be base-64 encoded for presentation and we",
+                    "23": "            // want to make sure to convert them back to the raw bytes before encrypting.",
+                    "24": "            if (Str::startsWith($key = $this->key($config), 'base64:')) {",
+                    "25": "                $key = base64_decode(substr($key, 7));",
+                    "26": "            }",
+                    "27": "",
+                    "28": "            return new Encrypter($key, $config['cipher']);",
+                    "29": "        });",
+                    "30": "    }",
+                    "31": "",
+                    "32": "    /**",
+                    "33": "     * Extract the encryption key from the given configuration.",
+                    "34": "     *"
+                }
+            },
+            {
+                "class": "Illuminate\\Container\\Container",
+                "method": "build",
+                "args": [
+                    "Closure"
+                ],
+                "type": "method",
+                "file": "/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Container/Container.php",
+                "relative_file": "vendor/laravel/framework/src/Illuminate/Container/Container.php",
+                "line_number": 749,
+                "code_snippet": {
+                    "739": "     * @return mixed",
+                    "740": "     *",
+                    "741": "     * @throws \\Illuminate\\Contracts\\Container\\BindingResolutionException",
+                    "742": "     */",
+                    "743": "    public function build($concrete)",
+                    "744": "    {",
+                    "745": "        // If the concrete type is actually a Closure, we will just execute it and",
+                    "746": "        // hand back the results of the functions, which allows functions to be",
+                    "747": "        // used as resolvers for more fine-tuned resolution of these objects.",
+                    "748": "        if ($concrete instanceof Closure) {",
+                    "749": "            return $concrete($this, $this->getLastParameterOverride());",
+                    "750": "        }",
+                    "751": "",
+                    "752": "        $reflector = new ReflectionClass($concrete);",
+                    "753": "",
+                    "754": "        // If the type is not instantiable, the developer is attempting to resolve",
+                    "755": "        // an abstract type such as an Interface of Abstract Class and there is",
+                    "756": "        // no binding registered for the abstractions so we need to bail out.",
+                    "757": "        if (! $reflector->isInstantiable()) {",
+                    "758": "            return $this->notInstantiable($concrete);",
+                    "759": "        }"
+                }
+            },
+            {
+                "class": "Illuminate\\Container\\Container",
+                "method": "resolve",
+                "args": [
+                    "encrypter",
+                    []
+                ],
+                "type": "method",
+                "file": "/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Container/Container.php",
+                "relative_file": "vendor/laravel/framework/src/Illuminate/Container/Container.php",
+                "line_number": 631,
+                "code_snippet": {
+                    "621": "        }",
+                    "622": "",
+                    "623": "        $this->with[] = $parameters;",
+                    "624": "",
+                    "625": "        $concrete = $this->getConcrete($abstract);",
+                    "626": "",
+                    "627": "        // We're ready to instantiate an instance of the concrete type registered for",
+                    "628": "        // the binding. This will instantiate the types, as well as resolve any of",
+                    "629": "        // its \"nested\" dependencies recursively until all have gotten resolved.",
+                    "630": "        if ($this->isBuildable($concrete, $abstract)) {",
+                    "631": "            $object = $this->build($concrete);",
+                    "632": "        } else {",
+                    "633": "            $object = $this->make($concrete);",
+                    "634": "        }",
+                    "635": "",
+                    "636": "        // If we defined any extenders for this type, we'll need to spin through them",
+                    "637": "        // and apply them to the object being built. This allows for the extension",
+                    "638": "        // of services, such as changing configuration or decorating the object.",
+                    "639": "        foreach ($this->getExtenders($abstract) as $extender) {",
+                    "640": "            $object = $extender($object, $this);",
+                    "641": "        }"
+                }
+            },
+            {
+                "class": "Illuminate\\Container\\Container",
+                "method": "make",
+                "args": [
+                    "encrypter",
+                    []
+                ],
+                "type": "method",
+                "file": "/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Container/Container.php",
+                "relative_file": "vendor/laravel/framework/src/Illuminate/Container/Container.php",
+                "line_number": 586,
+                "code_snippet": {
+                    "576": "",
+                    "577": "    /**",
+                    "578": "     * Resolve the given type from the container.",
+                    "579": "     *",
+                    "580": "     * @param  string  $abstract",
+                    "581": "     * @param  array  $parameters",
+                    "582": "     * @return mixed",
+                    "583": "     */",
+                    "584": "    public function make($abstract, array $parameters = [])",
+                    "585": "    {",
+                    "586": "        return $this->resolve($abstract, $parameters);",
+                    "587": "    }",
+                    "588": "",
+                    "589": "    /**",
+                    "590": "     *  {@inheritdoc}",
+                    "591": "     */",
+                    "592": "    public function get($id)",
+                    "593": "    {",
+                    "594": "        if ($this->has($id)) {",
+                    "595": "            return $this->resolve($id);",
+                    "596": "        }"
+                }
+            },
+            {
+                "class": "Illuminate\\Foundation\\Application",
+                "method": "make",
+                "args": [
+                    "encrypter"
+                ],
+                "type": "method",
+                "file": "/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Foundation/Application.php",
+                "relative_file": "vendor/laravel/framework/src/Illuminate/Foundation/Application.php",
+                "line_number": 732,
+                "code_snippet": {
+                    "722": "     * @return mixed",
+                    "723": "     */",
+                    "724": "    public function make($abstract, array $parameters = [])",
+                    "725": "    {",
+                    "726": "        $abstract = $this->getAlias($abstract);",
+                    "727": "",
+                    "728": "        if (isset($this->deferredServices[$abstract]) && ! isset($this->instances[$abstract])) {",
+                    "729": "            $this->loadDeferredProvider($abstract);",
+                    "730": "        }",
+                    "731": "",
+                    "732": "        return parent::make($abstract, $parameters);",
+                    "733": "    }",
+                    "734": "",
+                    "735": "    /**",
+                    "736": "     * Determine if the given abstract type has been bound.",
+                    "737": "     *",
+                    "738": "     * (Overriding Container::bound)",
+                    "739": "     *",
+                    "740": "     * @param  string  $abstract",
+                    "741": "     * @return bool",
+                    "742": "     */"
+                }
+            },
+            {
+                "class": "Illuminate\\Container\\Container",
+                "method": "resolveClass",
+                "args": [
+                    "ReflectionParameter"
+                ],
+                "type": "method",
+                "file": "/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Container/Container.php",
+                "relative_file": "vendor/laravel/framework/src/Illuminate/Container/Container.php",
+                "line_number": 885,
+                "code_snippet": {
+                    "875": "     * Resolve a class based dependency from the container.",
+                    "876": "     *",
+                    "877": "     * @param  \\ReflectionParameter  $parameter",
+                    "878": "     * @return mixed",
+                    "879": "     *",
+                    "880": "     * @throws \\Illuminate\\Contracts\\Container\\BindingResolutionException",
+                    "881": "     */",
+                    "882": "    protected function resolveClass(ReflectionParameter $parameter)",
+                    "883": "    {",
+                    "884": "        try {",
+                    "885": "            return $this->make($parameter->getClass()->name);",
+                    "886": "        }",
+                    "887": "",
+                    "888": "        // If we can not resolve the class instance, we will check to see if the value",
+                    "889": "        // is optional, and if it is we will return the optional parameter value as",
+                    "890": "        // the value of the dependency, similarly to how we do this with scalars.",
+                    "891": "        catch (BindingResolutionException $e) {",
+                    "892": "            if ($parameter->isOptional()) {",
+                    "893": "                return $parameter->getDefaultValue();",
+                    "894": "            }",
+                    "895": ""
+                }
+            },
+            {
+                "class": "Illuminate\\Container\\Container",
+                "method": "resolveDependencies",
+                "args": [
+                    [
+                        "ReflectionParameter"
+                    ]
+                ],
+                "type": "method",
+                "file": "/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Container/Container.php",
+                "relative_file": "vendor/laravel/framework/src/Illuminate/Container/Container.php",
+                "line_number": 813,
+                "code_snippet": {
+                    "803": "                $results[] = $this->getParameterOverride($dependency);",
+                    "804": "",
+                    "805": "                continue;",
+                    "806": "            }",
+                    "807": "",
+                    "808": "            // If the class is null, it means the dependency is a string or some other",
+                    "809": "            // primitive type which we can not resolve since it is not a class and",
+                    "810": "            // we will just bomb out with an error since we have no-where to go.",
+                    "811": "            $results[] = is_null($dependency->getClass())",
+                    "812": "                            ? $this->resolvePrimitive($dependency)",
+                    "813": "                            : $this->resolveClass($dependency);",
+                    "814": "        }",
+                    "815": "",
+                    "816": "        return $results;",
+                    "817": "    }",
+                    "818": "",
+                    "819": "    /**",
+                    "820": "     * Determine if the given dependency has a parameter override.",
+                    "821": "     *",
+                    "822": "     * @param  \\ReflectionParameter  $dependency",
+                    "823": "     * @return bool"
+                }
+            },
+            {
+                "class": "Illuminate\\Container\\Container",
+                "method": "build",
+                "args": [
+                    "App\\Http\\Middleware\\EncryptCookies"
+                ],
+                "type": "method",
+                "file": "/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Container/Container.php",
+                "relative_file": "vendor/laravel/framework/src/Illuminate/Container/Container.php",
+                "line_number": 780,
+                "code_snippet": {
+                    "770": "",
+                    "771": "            return new $concrete;",
+                    "772": "        }",
+                    "773": "",
+                    "774": "        $dependencies = $constructor->getParameters();",
+                    "775": "",
+                    "776": "        // Once we have all the constructor's parameters we can create each of the",
+                    "777": "        // dependency instances and then use the reflection instances to make a",
+                    "778": "        // new instance of this class, injecting the created dependencies in.",
+                    "779": "        $instances = $this->resolveDependencies(",
+                    "780": "            $dependencies",
+                    "781": "        );",
+                    "782": "",
+                    "783": "        array_pop($this->buildStack);",
+                    "784": "",
+                    "785": "        return $reflector->newInstanceArgs($instances);",
+                    "786": "    }",
+                    "787": "",
+                    "788": "    /**",
+                    "789": "     * Resolve all of the dependencies from the ReflectionParameters.",
+                    "790": "     *"
+                }
+            },
+            {
+                "class": "Illuminate\\Container\\Container",
+                "method": "resolve",
+                "args": [
+                    "App\\Http\\Middleware\\EncryptCookies",
+                    []
+                ],
+                "type": "method",
+                "file": "/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Container/Container.php",
+                "relative_file": "vendor/laravel/framework/src/Illuminate/Container/Container.php",
+                "line_number": 631,
+                "code_snippet": {
+                    "621": "        }",
+                    "622": "",
+                    "623": "        $this->with[] = $parameters;",
+                    "624": "",
+                    "625": "        $concrete = $this->getConcrete($abstract);",
+                    "626": "",
+                    "627": "        // We're ready to instantiate an instance of the concrete type registered for",
+                    "628": "        // the binding. This will instantiate the types, as well as resolve any of",
+                    "629": "        // its \"nested\" dependencies recursively until all have gotten resolved.",
+                    "630": "        if ($this->isBuildable($concrete, $abstract)) {",
+                    "631": "            $object = $this->build($concrete);",
+                    "632": "        } else {",
+                    "633": "            $object = $this->make($concrete);",
+                    "634": "        }",
+                    "635": "",
+                    "636": "        // If we defined any extenders for this type, we'll need to spin through them",
+                    "637": "        // and apply them to the object being built. This allows for the extension",
+                    "638": "        // of services, such as changing configuration or decorating the object.",
+                    "639": "        foreach ($this->getExtenders($abstract) as $extender) {",
+                    "640": "            $object = $extender($object, $this);",
+                    "641": "        }"
+                }
+            },
+            {
+                "class": "Illuminate\\Container\\Container",
+                "method": "make",
+                "args": [
+                    "App\\Http\\Middleware\\EncryptCookies",
+                    []
+                ],
+                "type": "method",
+                "file": "/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Container/Container.php",
+                "relative_file": "vendor/laravel/framework/src/Illuminate/Container/Container.php",
+                "line_number": 586,
+                "code_snippet": {
+                    "576": "",
+                    "577": "    /**",
+                    "578": "     * Resolve the given type from the container.",
+                    "579": "     *",
+                    "580": "     * @param  string  $abstract",
+                    "581": "     * @param  array  $parameters",
+                    "582": "     * @return mixed",
+                    "583": "     */",
+                    "584": "    public function make($abstract, array $parameters = [])",
+                    "585": "    {",
+                    "586": "        return $this->resolve($abstract, $parameters);",
+                    "587": "    }",
+                    "588": "",
+                    "589": "    /**",
+                    "590": "     *  {@inheritdoc}",
+                    "591": "     */",
+                    "592": "    public function get($id)",
+                    "593": "    {",
+                    "594": "        if ($this->has($id)) {",
+                    "595": "            return $this->resolve($id);",
+                    "596": "        }"
+                }
+            },
+            {
+                "class": "Illuminate\\Foundation\\Application",
+                "method": "make",
+                "args": [
+                    "App\\Http\\Middleware\\EncryptCookies"
+                ],
+                "type": "method",
+                "file": "/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Foundation/Application.php",
+                "relative_file": "vendor/laravel/framework/src/Illuminate/Foundation/Application.php",
+                "line_number": 732,
+                "code_snippet": {
+                    "722": "     * @return mixed",
+                    "723": "     */",
+                    "724": "    public function make($abstract, array $parameters = [])",
+                    "725": "    {",
+                    "726": "        $abstract = $this->getAlias($abstract);",
+                    "727": "",
+                    "728": "        if (isset($this->deferredServices[$abstract]) && ! isset($this->instances[$abstract])) {",
+                    "729": "            $this->loadDeferredProvider($abstract);",
+                    "730": "        }",
+                    "731": "",
+                    "732": "        return parent::make($abstract, $parameters);",
+                    "733": "    }",
+                    "734": "",
+                    "735": "    /**",
+                    "736": "     * Determine if the given abstract type has been bound.",
+                    "737": "     *",
+                    "738": "     * (Overriding Container::bound)",
+                    "739": "     *",
+                    "740": "     * @param  string  $abstract",
+                    "741": "     * @return bool",
+                    "742": "     */"
+                }
+            },
+            {
+                "class": "Illuminate\\Pipeline\\Pipeline",
+                "method": "Illuminate\\Pipeline\\{closure}",
+                "args": [
+                    "Illuminate\\Http\\Request"
+                ],
+                "type": "method",
+                "file": "/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+                "relative_file": "vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+                "line_number": 138,
+                "code_snippet": {
+                    "128": "                    // If the pipe is an instance of a Closure, we will just call it directly but",
+                    "129": "                    // otherwise we'll resolve the pipes out of the container and call it with",
+                    "130": "                    // the appropriate method and arguments, returning the results back out.",
+                    "131": "                    return $pipe($passable, $stack);",
+                    "132": "                } elseif (! is_object($pipe)) {",
+                    "133": "                    list($name, $parameters) = $this->parsePipeString($pipe);",
+                    "134": "",
+                    "135": "                    // If the pipe is a string we will parse the string and resolve the class out",
+                    "136": "                    // of the dependency injection container. We can then build a callable and",
+                    "137": "                    // execute the pipe function giving in the parameters that are required.",
+                    "138": "                    $pipe = $this->getContainer()->make($name);",
+                    "139": "",
+                    "140": "                    $parameters = array_merge([$passable, $stack], $parameters);",
+                    "141": "                } else {",
+                    "142": "                    // If the pipe is already an object we'll just make a callable and pass it to",
+                    "143": "                    // the pipe as-is. There is no need to do any extra parsing and formatting",
+                    "144": "                    // since the object we're given was already a fully instantiated object.",
+                    "145": "                    $parameters = [$passable, $stack];",
+                    "146": "                }",
+                    "147": "",
+                    "148": "                return method_exists($pipe, $this->method)"
+                }
+            },
+            {
+                "class": "Illuminate\\Routing\\Pipeline",
+                "method": "Illuminate\\Routing\\{closure}",
+                "args": [
+                    "Illuminate\\Http\\Request"
+                ],
+                "type": "method",
+                "file": "/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php",
+                "relative_file": "vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php",
+                "line_number": 53,
+                "code_snippet": {
+                    "43": "     */",
+                    "44": "    protected function carry()",
+                    "45": "    {",
+                    "46": "        return function ($stack, $pipe) {",
+                    "47": "            return function ($passable) use ($stack, $pipe) {",
+                    "48": "                try {",
+                    "49": "                    $slice = parent::carry();",
+                    "50": "",
+                    "51": "                    $callable = $slice($stack, $pipe);",
+                    "52": "",
+                    "53": "                    return $callable($passable);",
+                    "54": "                } catch (Exception $e) {",
+                    "55": "                    return $this->handleException($passable, $e);",
+                    "56": "                } catch (Throwable $e) {",
+                    "57": "                    return $this->handleException($passable, new FatalThrowableError($e));",
+                    "58": "                }",
+                    "59": "            };",
+                    "60": "        };",
+                    "61": "    }",
+                    "62": "",
+                    "63": "    /**"
+                }
+            },
+            {
+                "class": "Illuminate\\Pipeline\\Pipeline",
+                "method": "then",
+                "args": [
+                    "Closure"
+                ],
+                "type": "method",
+                "file": "/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+                "relative_file": "vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+                "line_number": 102,
+                "code_snippet": {
+                    "92": "     *",
+                    "93": "     * @param  \\Closure  $destination",
+                    "94": "     * @return mixed",
+                    "95": "     */",
+                    "96": "    public function then(Closure $destination)",
+                    "97": "    {",
+                    "98": "        $pipeline = array_reduce(",
+                    "99": "            array_reverse($this->pipes), $this->carry(), $this->prepareDestination($destination)",
+                    "100": "        );",
+                    "101": "",
+                    "102": "        return $pipeline($this->passable);",
+                    "103": "    }",
+                    "104": "",
+                    "105": "    /**",
+                    "106": "     * Get the final piece of the Closure onion.",
+                    "107": "     *",
+                    "108": "     * @param  \\Closure  $destination",
+                    "109": "     * @return \\Closure",
+                    "110": "     */",
+                    "111": "    protected function prepareDestination(Closure $destination)",
+                    "112": "    {"
+                }
+            },
+            {
+                "class": "Illuminate\\Routing\\Router",
+                "method": "runRouteWithinStack",
+                "args": [
+                    "Illuminate\\Routing\\Route",
+                    "Illuminate\\Http\\Request"
+                ],
+                "type": "method",
+                "file": "/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Routing/Router.php",
+                "relative_file": "vendor/laravel/framework/src/Illuminate/Routing/Router.php",
+                "line_number": 660,
+                "code_snippet": {
+                    "650": "",
+                    "651": "        $middleware = $shouldSkipMiddleware ? [] : $this->gatherRouteMiddleware($route);",
+                    "652": "",
+                    "653": "        return (new Pipeline($this->container))",
+                    "654": "                        ->send($request)",
+                    "655": "                        ->through($middleware)",
+                    "656": "                        ->then(function ($request) use ($route) {",
+                    "657": "                            return $this->prepareResponse(",
+                    "658": "                                $request, $route->run()",
+                    "659": "                            );",
+                    "660": "                        });",
+                    "661": "    }",
+                    "662": "",
+                    "663": "    /**",
+                    "664": "     * Gather the middleware for the given route with resolved class names.",
+                    "665": "     *",
+                    "666": "     * @param  \\Illuminate\\Routing\\Route  $route",
+                    "667": "     * @return array",
+                    "668": "     */",
+                    "669": "    public function gatherRouteMiddleware(Route $route)",
+                    "670": "    {"
+                }
+            },
+            {
+                "class": "Illuminate\\Routing\\Router",
+                "method": "runRoute",
+                "args": [
+                    "Illuminate\\Http\\Request",
+                    "Illuminate\\Routing\\Route"
+                ],
+                "type": "method",
+                "file": "/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Routing/Router.php",
+                "relative_file": "vendor/laravel/framework/src/Illuminate/Routing/Router.php",
+                "line_number": 635,
+                "code_snippet": {
+                    "625": "     */",
+                    "626": "    protected function runRoute(Request $request, Route $route)",
+                    "627": "    {",
+                    "628": "        $request->setRouteResolver(function () use ($route) {",
+                    "629": "            return $route;",
+                    "630": "        });",
+                    "631": "",
+                    "632": "        $this->events->dispatch(new Events\\RouteMatched($route, $request));",
+                    "633": "",
+                    "634": "        return $this->prepareResponse($request,",
+                    "635": "            $this->runRouteWithinStack($route, $request)",
+                    "636": "        );",
+                    "637": "    }",
+                    "638": "",
+                    "639": "    /**",
+                    "640": "     * Run the given route within a Stack \"onion\" instance.",
+                    "641": "     *",
+                    "642": "     * @param  \\Illuminate\\Routing\\Route  $route",
+                    "643": "     * @param  \\Illuminate\\Http\\Request  $request",
+                    "644": "     * @return mixed",
+                    "645": "     */"
+                }
+            },
+            {
+                "class": "Illuminate\\Routing\\Router",
+                "method": "dispatchToRoute",
+                "args": [
+                    "Illuminate\\Http\\Request"
+                ],
+                "type": "method",
+                "file": "/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Routing/Router.php",
+                "relative_file": "vendor/laravel/framework/src/Illuminate/Routing/Router.php",
+                "line_number": 601,
+                "code_snippet": {
+                    "591": "    }",
+                    "592": "",
+                    "593": "    /**",
+                    "594": "     * Dispatch the request to a route and return the response.",
+                    "595": "     *",
+                    "596": "     * @param  \\Illuminate\\Http\\Request  $request",
+                    "597": "     * @return mixed",
+                    "598": "     */",
+                    "599": "    public function dispatchToRoute(Request $request)",
+                    "600": "    {",
+                    "601": "        return $this->runRoute($request, $this->findRoute($request));",
+                    "602": "    }",
+                    "603": "",
+                    "604": "    /**",
+                    "605": "     * Find the route matching a given request.",
+                    "606": "     *",
+                    "607": "     * @param  \\Illuminate\\Http\\Request  $request",
+                    "608": "     * @return \\Illuminate\\Routing\\Route",
+                    "609": "     */",
+                    "610": "    protected function findRoute($request)",
+                    "611": "    {"
+                }
+            },
+            {
+                "class": "Illuminate\\Routing\\Router",
+                "method": "dispatch",
+                "args": [
+                    "Illuminate\\Http\\Request"
+                ],
+                "type": "method",
+                "file": "/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Routing/Router.php",
+                "relative_file": "vendor/laravel/framework/src/Illuminate/Routing/Router.php",
+                "line_number": 590,
+                "code_snippet": {
+                    "580": "    /**",
+                    "581": "     * Dispatch the request to the application.",
+                    "582": "     *",
+                    "583": "     * @param  \\Illuminate\\Http\\Request  $request",
+                    "584": "     * @return \\Illuminate\\Http\\Response|\\Illuminate\\Http\\JsonResponse",
+                    "585": "     */",
+                    "586": "    public function dispatch(Request $request)",
+                    "587": "    {",
+                    "588": "        $this->currentRequest = $request;",
+                    "589": "",
+                    "590": "        return $this->dispatchToRoute($request);",
+                    "591": "    }",
+                    "592": "",
+                    "593": "    /**",
+                    "594": "     * Dispatch the request to a route and return the response.",
+                    "595": "     *",
+                    "596": "     * @param  \\Illuminate\\Http\\Request  $request",
+                    "597": "     * @return mixed",
+                    "598": "     */",
+                    "599": "    public function dispatchToRoute(Request $request)",
+                    "600": "    {"
+                }
+            },
+            {
+                "class": "Illuminate\\Foundation\\Http\\Kernel",
+                "method": "Illuminate\\Foundation\\Http\\{closure}",
+                "args": [
+                    "Illuminate\\Http\\Request"
+                ],
+                "type": "method",
+                "file": "/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php",
+                "relative_file": "vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php",
+                "line_number": 176,
+                "code_snippet": {
+                    "166": "    /**",
+                    "167": "     * Get the route dispatcher callback.",
+                    "168": "     *",
+                    "169": "     * @return \\Closure",
+                    "170": "     */",
+                    "171": "    protected function dispatchToRouter()",
+                    "172": "    {",
+                    "173": "        return function ($request) {",
+                    "174": "            $this->app->instance('request', $request);",
+                    "175": "",
+                    "176": "            return $this->router->dispatch($request);",
+                    "177": "        };",
+                    "178": "    }",
+                    "179": "",
+                    "180": "    /**",
+                    "181": "     * Call the terminate method on any terminable middleware.",
+                    "182": "     *",
+                    "183": "     * @param  \\Illuminate\\Http\\Request  $request",
+                    "184": "     * @param  \\Illuminate\\Http\\Response  $response",
+                    "185": "     * @return void",
+                    "186": "     */"
+                }
+            },
+            {
+                "class": "Illuminate\\Routing\\Pipeline",
+                "method": "Illuminate\\Routing\\{closure}",
+                "args": [
+                    "Illuminate\\Http\\Request"
+                ],
+                "type": "method",
+                "file": "/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php",
+                "relative_file": "vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php",
+                "line_number": 30,
+                "code_snippet": {
+                    "20": "    /**",
+                    "21": "     * Get the final piece of the Closure onion.",
+                    "22": "     *",
+                    "23": "     * @param  \\Closure  $destination",
+                    "24": "     * @return \\Closure",
+                    "25": "     */",
+                    "26": "    protected function prepareDestination(Closure $destination)",
+                    "27": "    {",
+                    "28": "        return function ($passable) use ($destination) {",
+                    "29": "            try {",
+                    "30": "                return $destination($passable);",
+                    "31": "            } catch (Exception $e) {",
+                    "32": "                return $this->handleException($passable, $e);",
+                    "33": "            } catch (Throwable $e) {",
+                    "34": "                return $this->handleException($passable, new FatalThrowableError($e));",
+                    "35": "            }",
+                    "36": "        };",
+                    "37": "    }",
+                    "38": "",
+                    "39": "    /**",
+                    "40": "     * Get a Closure that represents a slice of the application onion."
+                }
+            },
+            {
+                "class": "Fideloper\\Proxy\\TrustProxies",
+                "method": "handle",
+                "args": [
+                    "Illuminate\\Http\\Request",
+                    "Closure"
+                ],
+                "type": "method",
+                "file": "/home/vagrant/code/lumen55/vendor/fideloper/proxy/src/TrustProxies.php",
+                "relative_file": "vendor/fideloper/proxy/src/TrustProxies.php",
+                "line_number": 56,
+                "code_snippet": {
+                    "46": "     *",
+                    "47": "     * @throws \\Symfony\\Component\\HttpKernel\\Exception\\HttpException",
+                    "48": "     *",
+                    "49": "     * @return mixed",
+                    "50": "     */",
+                    "51": "    public function handle($request, Closure $next)",
+                    "52": "    {",
+                    "53": "        $this->setTrustedProxyHeaderNames($request);",
+                    "54": "        $this->setTrustedProxyIpAddresses($request);",
+                    "55": "",
+                    "56": "        return $next($request);",
+                    "57": "    }",
+                    "58": "",
+                    "59": "    /**",
+                    "60": "     * Sets the trusted proxies on the request to the value of trustedproxy.proxies",
+                    "61": "     *",
+                    "62": "     * @param \\Illuminate\\Http\\Request $request",
+                    "63": "     */",
+                    "64": "    protected function setTrustedProxyIpAddresses($request)",
+                    "65": "    {",
+                    "66": "        $trustedIps = $this->proxies ?: $this->config->get('trustedproxy.proxies');"
+                }
+            },
+            {
+                "class": "Illuminate\\Pipeline\\Pipeline",
+                "method": "Illuminate\\Pipeline\\{closure}",
+                "args": [
+                    "Illuminate\\Http\\Request"
+                ],
+                "type": "method",
+                "file": "/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+                "relative_file": "vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+                "line_number": 149,
+                "code_snippet": {
+                    "139": "",
+                    "140": "                    $parameters = array_merge([$passable, $stack], $parameters);",
+                    "141": "                } else {",
+                    "142": "                    // If the pipe is already an object we'll just make a callable and pass it to",
+                    "143": "                    // the pipe as-is. There is no need to do any extra parsing and formatting",
+                    "144": "                    // since the object we're given was already a fully instantiated object.",
+                    "145": "                    $parameters = [$passable, $stack];",
+                    "146": "                }",
+                    "147": "",
+                    "148": "                return method_exists($pipe, $this->method)",
+                    "149": "                                ? $pipe->{$this->method}(...$parameters)",
+                    "150": "                                : $pipe(...$parameters);",
+                    "151": "            };",
+                    "152": "        };",
+                    "153": "    }",
+                    "154": "",
+                    "155": "    /**",
+                    "156": "     * Parse full pipe string to get name and parameters.",
+                    "157": "     *",
+                    "158": "     * @param  string $pipe",
+                    "159": "     * @return array"
+                }
+            },
+            {
+                "class": "Illuminate\\Routing\\Pipeline",
+                "method": "Illuminate\\Routing\\{closure}",
+                "args": [
+                    "Illuminate\\Http\\Request"
+                ],
+                "type": "method",
+                "file": "/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php",
+                "relative_file": "vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php",
+                "line_number": 53,
+                "code_snippet": {
+                    "43": "     */",
+                    "44": "    protected function carry()",
+                    "45": "    {",
+                    "46": "        return function ($stack, $pipe) {",
+                    "47": "            return function ($passable) use ($stack, $pipe) {",
+                    "48": "                try {",
+                    "49": "                    $slice = parent::carry();",
+                    "50": "",
+                    "51": "                    $callable = $slice($stack, $pipe);",
+                    "52": "",
+                    "53": "                    return $callable($passable);",
+                    "54": "                } catch (Exception $e) {",
+                    "55": "                    return $this->handleException($passable, $e);",
+                    "56": "                } catch (Throwable $e) {",
+                    "57": "                    return $this->handleException($passable, new FatalThrowableError($e));",
+                    "58": "                }",
+                    "59": "            };",
+                    "60": "        };",
+                    "61": "    }",
+                    "62": "",
+                    "63": "    /**"
+                }
+            },
+            {
+                "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+                "method": "handle",
+                "args": [
+                    "Illuminate\\Http\\Request",
+                    "Closure"
+                ],
+                "type": "method",
+                "file": "/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php",
+                "relative_file": "vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php",
+                "line_number": 30,
+                "code_snippet": {
+                    "20": "     * @param  \\Illuminate\\Http\\Request  $request",
+                    "21": "     * @param  \\Closure  $next",
+                    "22": "     * @return mixed",
+                    "23": "     */",
+                    "24": "    public function handle($request, Closure $next, ...$attributes)",
+                    "25": "    {",
+                    "26": "        $this->attributes = $attributes;",
+                    "27": "",
+                    "28": "        $this->clean($request);",
+                    "29": "",
+                    "30": "        return $next($request);",
+                    "31": "    }",
+                    "32": "",
+                    "33": "    /**",
+                    "34": "     * Clean the request's data.",
+                    "35": "     *",
+                    "36": "     * @param  \\Illuminate\\Http\\Request  $request",
+                    "37": "     * @return void",
+                    "38": "     */",
+                    "39": "    protected function clean($request)",
+                    "40": "    {"
+                }
+            },
+            {
+                "class": "Illuminate\\Pipeline\\Pipeline",
+                "method": "Illuminate\\Pipeline\\{closure}",
+                "args": [
+                    "Illuminate\\Http\\Request"
+                ],
+                "type": "method",
+                "file": "/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+                "relative_file": "vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+                "line_number": 149,
+                "code_snippet": {
+                    "139": "",
+                    "140": "                    $parameters = array_merge([$passable, $stack], $parameters);",
+                    "141": "                } else {",
+                    "142": "                    // If the pipe is already an object we'll just make a callable and pass it to",
+                    "143": "                    // the pipe as-is. There is no need to do any extra parsing and formatting",
+                    "144": "                    // since the object we're given was already a fully instantiated object.",
+                    "145": "                    $parameters = [$passable, $stack];",
+                    "146": "                }",
+                    "147": "",
+                    "148": "                return method_exists($pipe, $this->method)",
+                    "149": "                                ? $pipe->{$this->method}(...$parameters)",
+                    "150": "                                : $pipe(...$parameters);",
+                    "151": "            };",
+                    "152": "        };",
+                    "153": "    }",
+                    "154": "",
+                    "155": "    /**",
+                    "156": "     * Parse full pipe string to get name and parameters.",
+                    "157": "     *",
+                    "158": "     * @param  string $pipe",
+                    "159": "     * @return array"
+                }
+            },
+            {
+                "class": "Illuminate\\Routing\\Pipeline",
+                "method": "Illuminate\\Routing\\{closure}",
+                "args": [
+                    "Illuminate\\Http\\Request"
+                ],
+                "type": "method",
+                "file": "/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php",
+                "relative_file": "vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php",
+                "line_number": 53,
+                "code_snippet": {
+                    "43": "     */",
+                    "44": "    protected function carry()",
+                    "45": "    {",
+                    "46": "        return function ($stack, $pipe) {",
+                    "47": "            return function ($passable) use ($stack, $pipe) {",
+                    "48": "                try {",
+                    "49": "                    $slice = parent::carry();",
+                    "50": "",
+                    "51": "                    $callable = $slice($stack, $pipe);",
+                    "52": "",
+                    "53": "                    return $callable($passable);",
+                    "54": "                } catch (Exception $e) {",
+                    "55": "                    return $this->handleException($passable, $e);",
+                    "56": "                } catch (Throwable $e) {",
+                    "57": "                    return $this->handleException($passable, new FatalThrowableError($e));",
+                    "58": "                }",
+                    "59": "            };",
+                    "60": "        };",
+                    "61": "    }",
+                    "62": "",
+                    "63": "    /**"
+                }
+            },
+            {
+                "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+                "method": "handle",
+                "args": [
+                    "Illuminate\\Http\\Request",
+                    "Closure"
+                ],
+                "type": "method",
+                "file": "/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php",
+                "relative_file": "vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php",
+                "line_number": 30,
+                "code_snippet": {
+                    "20": "     * @param  \\Illuminate\\Http\\Request  $request",
+                    "21": "     * @param  \\Closure  $next",
+                    "22": "     * @return mixed",
+                    "23": "     */",
+                    "24": "    public function handle($request, Closure $next, ...$attributes)",
+                    "25": "    {",
+                    "26": "        $this->attributes = $attributes;",
+                    "27": "",
+                    "28": "        $this->clean($request);",
+                    "29": "",
+                    "30": "        return $next($request);",
+                    "31": "    }",
+                    "32": "",
+                    "33": "    /**",
+                    "34": "     * Clean the request's data.",
+                    "35": "     *",
+                    "36": "     * @param  \\Illuminate\\Http\\Request  $request",
+                    "37": "     * @return void",
+                    "38": "     */",
+                    "39": "    protected function clean($request)",
+                    "40": "    {"
+                }
+            },
+            {
+                "class": "Illuminate\\Pipeline\\Pipeline",
+                "method": "Illuminate\\Pipeline\\{closure}",
+                "args": [
+                    "Illuminate\\Http\\Request"
+                ],
+                "type": "method",
+                "file": "/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+                "relative_file": "vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+                "line_number": 149,
+                "code_snippet": {
+                    "139": "",
+                    "140": "                    $parameters = array_merge([$passable, $stack], $parameters);",
+                    "141": "                } else {",
+                    "142": "                    // If the pipe is already an object we'll just make a callable and pass it to",
+                    "143": "                    // the pipe as-is. There is no need to do any extra parsing and formatting",
+                    "144": "                    // since the object we're given was already a fully instantiated object.",
+                    "145": "                    $parameters = [$passable, $stack];",
+                    "146": "                }",
+                    "147": "",
+                    "148": "                return method_exists($pipe, $this->method)",
+                    "149": "                                ? $pipe->{$this->method}(...$parameters)",
+                    "150": "                                : $pipe(...$parameters);",
+                    "151": "            };",
+                    "152": "        };",
+                    "153": "    }",
+                    "154": "",
+                    "155": "    /**",
+                    "156": "     * Parse full pipe string to get name and parameters.",
+                    "157": "     *",
+                    "158": "     * @param  string $pipe",
+                    "159": "     * @return array"
+                }
+            },
+            {
+                "class": "Illuminate\\Routing\\Pipeline",
+                "method": "Illuminate\\Routing\\{closure}",
+                "args": [
+                    "Illuminate\\Http\\Request"
+                ],
+                "type": "method",
+                "file": "/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php",
+                "relative_file": "vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php",
+                "line_number": 53,
+                "code_snippet": {
+                    "43": "     */",
+                    "44": "    protected function carry()",
+                    "45": "    {",
+                    "46": "        return function ($stack, $pipe) {",
+                    "47": "            return function ($passable) use ($stack, $pipe) {",
+                    "48": "                try {",
+                    "49": "                    $slice = parent::carry();",
+                    "50": "",
+                    "51": "                    $callable = $slice($stack, $pipe);",
+                    "52": "",
+                    "53": "                    return $callable($passable);",
+                    "54": "                } catch (Exception $e) {",
+                    "55": "                    return $this->handleException($passable, $e);",
+                    "56": "                } catch (Throwable $e) {",
+                    "57": "                    return $this->handleException($passable, new FatalThrowableError($e));",
+                    "58": "                }",
+                    "59": "            };",
+                    "60": "        };",
+                    "61": "    }",
+                    "62": "",
+                    "63": "    /**"
+                }
+            },
+            {
+                "class": "Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize",
+                "method": "handle",
+                "args": [
+                    "Illuminate\\Http\\Request",
+                    "Closure"
+                ],
+                "type": "method",
+                "file": "/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php",
+                "relative_file": "vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php",
+                "line_number": 27,
+                "code_snippet": {
+                    "17": "     * @throws \\Illuminate\\Http\\Exceptions\\PostTooLargeException",
+                    "18": "     */",
+                    "19": "    public function handle($request, Closure $next)",
+                    "20": "    {",
+                    "21": "        $max = $this->getPostMaxSize();",
+                    "22": "",
+                    "23": "        if ($max > 0 && $request->server('CONTENT_LENGTH') > $max) {",
+                    "24": "            throw new PostTooLargeException;",
+                    "25": "        }",
+                    "26": "",
+                    "27": "        return $next($request);",
+                    "28": "    }",
+                    "29": "",
+                    "30": "    /**",
+                    "31": "     * Determine the server 'post_max_size' as bytes.",
+                    "32": "     *",
+                    "33": "     * @return int",
+                    "34": "     */",
+                    "35": "    protected function getPostMaxSize()",
+                    "36": "    {",
+                    "37": "        if (is_numeric($postMaxSize = ini_get('post_max_size'))) {"
+                }
+            },
+            {
+                "class": "Illuminate\\Pipeline\\Pipeline",
+                "method": "Illuminate\\Pipeline\\{closure}",
+                "args": [
+                    "Illuminate\\Http\\Request"
+                ],
+                "type": "method",
+                "file": "/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+                "relative_file": "vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+                "line_number": 149,
+                "code_snippet": {
+                    "139": "",
+                    "140": "                    $parameters = array_merge([$passable, $stack], $parameters);",
+                    "141": "                } else {",
+                    "142": "                    // If the pipe is already an object we'll just make a callable and pass it to",
+                    "143": "                    // the pipe as-is. There is no need to do any extra parsing and formatting",
+                    "144": "                    // since the object we're given was already a fully instantiated object.",
+                    "145": "                    $parameters = [$passable, $stack];",
+                    "146": "                }",
+                    "147": "",
+                    "148": "                return method_exists($pipe, $this->method)",
+                    "149": "                                ? $pipe->{$this->method}(...$parameters)",
+                    "150": "                                : $pipe(...$parameters);",
+                    "151": "            };",
+                    "152": "        };",
+                    "153": "    }",
+                    "154": "",
+                    "155": "    /**",
+                    "156": "     * Parse full pipe string to get name and parameters.",
+                    "157": "     *",
+                    "158": "     * @param  string $pipe",
+                    "159": "     * @return array"
+                }
+            },
+            {
+                "class": "Illuminate\\Routing\\Pipeline",
+                "method": "Illuminate\\Routing\\{closure}",
+                "args": [
+                    "Illuminate\\Http\\Request"
+                ],
+                "type": "method",
+                "file": "/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php",
+                "relative_file": "vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php",
+                "line_number": 53,
+                "code_snippet": {
+                    "43": "     */",
+                    "44": "    protected function carry()",
+                    "45": "    {",
+                    "46": "        return function ($stack, $pipe) {",
+                    "47": "            return function ($passable) use ($stack, $pipe) {",
+                    "48": "                try {",
+                    "49": "                    $slice = parent::carry();",
+                    "50": "",
+                    "51": "                    $callable = $slice($stack, $pipe);",
+                    "52": "",
+                    "53": "                    return $callable($passable);",
+                    "54": "                } catch (Exception $e) {",
+                    "55": "                    return $this->handleException($passable, $e);",
+                    "56": "                } catch (Throwable $e) {",
+                    "57": "                    return $this->handleException($passable, new FatalThrowableError($e));",
+                    "58": "                }",
+                    "59": "            };",
+                    "60": "        };",
+                    "61": "    }",
+                    "62": "",
+                    "63": "    /**"
+                }
+            },
+            {
+                "class": "Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode",
+                "method": "handle",
+                "args": [
+                    "Illuminate\\Http\\Request",
+                    "Closure"
+                ],
+                "type": "method",
+                "file": "/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php",
+                "relative_file": "vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php",
+                "line_number": 46,
+                "code_snippet": {
+                    "36": "     * @throws \\Symfony\\Component\\HttpKernel\\Exception\\HttpException",
+                    "37": "     */",
+                    "38": "    public function handle($request, Closure $next)",
+                    "39": "    {",
+                    "40": "        if ($this->app->isDownForMaintenance()) {",
+                    "41": "            $data = json_decode(file_get_contents($this->app->storagePath().'/framework/down'), true);",
+                    "42": "",
+                    "43": "            throw new MaintenanceModeException($data['time'], $data['retry'], $data['message']);",
+                    "44": "        }",
+                    "45": "",
+                    "46": "        return $next($request);",
+                    "47": "    }",
+                    "48": "}",
+                    "49": ""
+                }
+            },
+            {
+                "class": "Illuminate\\Pipeline\\Pipeline",
+                "method": "Illuminate\\Pipeline\\{closure}",
+                "args": [
+                    "Illuminate\\Http\\Request"
+                ],
+                "type": "method",
+                "file": "/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+                "relative_file": "vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+                "line_number": 149,
+                "code_snippet": {
+                    "139": "",
+                    "140": "                    $parameters = array_merge([$passable, $stack], $parameters);",
+                    "141": "                } else {",
+                    "142": "                    // If the pipe is already an object we'll just make a callable and pass it to",
+                    "143": "                    // the pipe as-is. There is no need to do any extra parsing and formatting",
+                    "144": "                    // since the object we're given was already a fully instantiated object.",
+                    "145": "                    $parameters = [$passable, $stack];",
+                    "146": "                }",
+                    "147": "",
+                    "148": "                return method_exists($pipe, $this->method)",
+                    "149": "                                ? $pipe->{$this->method}(...$parameters)",
+                    "150": "                                : $pipe(...$parameters);",
+                    "151": "            };",
+                    "152": "        };",
+                    "153": "    }",
+                    "154": "",
+                    "155": "    /**",
+                    "156": "     * Parse full pipe string to get name and parameters.",
+                    "157": "     *",
+                    "158": "     * @param  string $pipe",
+                    "159": "     * @return array"
+                }
+            },
+            {
+                "class": "Illuminate\\Routing\\Pipeline",
+                "method": "Illuminate\\Routing\\{closure}",
+                "args": [
+                    "Illuminate\\Http\\Request"
+                ],
+                "type": "method",
+                "file": "/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php",
+                "relative_file": "vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php",
+                "line_number": 53,
+                "code_snippet": {
+                    "43": "     */",
+                    "44": "    protected function carry()",
+                    "45": "    {",
+                    "46": "        return function ($stack, $pipe) {",
+                    "47": "            return function ($passable) use ($stack, $pipe) {",
+                    "48": "                try {",
+                    "49": "                    $slice = parent::carry();",
+                    "50": "",
+                    "51": "                    $callable = $slice($stack, $pipe);",
+                    "52": "",
+                    "53": "                    return $callable($passable);",
+                    "54": "                } catch (Exception $e) {",
+                    "55": "                    return $this->handleException($passable, $e);",
+                    "56": "                } catch (Throwable $e) {",
+                    "57": "                    return $this->handleException($passable, new FatalThrowableError($e));",
+                    "58": "                }",
+                    "59": "            };",
+                    "60": "        };",
+                    "61": "    }",
+                    "62": "",
+                    "63": "    /**"
+                }
+            },
+            {
+                "class": "Illuminate\\Pipeline\\Pipeline",
+                "method": "then",
+                "args": [
+                    "Closure"
+                ],
+                "type": "method",
+                "file": "/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+                "relative_file": "vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+                "line_number": 102,
+                "code_snippet": {
+                    "92": "     *",
+                    "93": "     * @param  \\Closure  $destination",
+                    "94": "     * @return mixed",
+                    "95": "     */",
+                    "96": "    public function then(Closure $destination)",
+                    "97": "    {",
+                    "98": "        $pipeline = array_reduce(",
+                    "99": "            array_reverse($this->pipes), $this->carry(), $this->prepareDestination($destination)",
+                    "100": "        );",
+                    "101": "",
+                    "102": "        return $pipeline($this->passable);",
+                    "103": "    }",
+                    "104": "",
+                    "105": "    /**",
+                    "106": "     * Get the final piece of the Closure onion.",
+                    "107": "     *",
+                    "108": "     * @param  \\Closure  $destination",
+                    "109": "     * @return \\Closure",
+                    "110": "     */",
+                    "111": "    protected function prepareDestination(Closure $destination)",
+                    "112": "    {"
+                }
+            },
+            {
+                "class": "Illuminate\\Foundation\\Http\\Kernel",
+                "method": "sendRequestThroughRouter",
+                "args": [
+                    "Illuminate\\Http\\Request"
+                ],
+                "type": "method",
+                "file": "/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php",
+                "relative_file": "vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php",
+                "line_number": 151,
+                "code_snippet": {
+                    "141": "    {",
+                    "142": "        $this->app->instance('request', $request);",
+                    "143": "",
+                    "144": "        Facade::clearResolvedInstance('request');",
+                    "145": "",
+                    "146": "        $this->bootstrap();",
+                    "147": "",
+                    "148": "        return (new Pipeline($this->app))",
+                    "149": "                    ->send($request)",
+                    "150": "                    ->through($this->app->shouldSkipMiddleware() ? [] : $this->middleware)",
+                    "151": "                    ->then($this->dispatchToRouter());",
+                    "152": "    }",
+                    "153": "",
+                    "154": "    /**",
+                    "155": "     * Bootstrap the application for HTTP requests.",
+                    "156": "     *",
+                    "157": "     * @return void",
+                    "158": "     */",
+                    "159": "    public function bootstrap()",
+                    "160": "    {",
+                    "161": "        if (! $this->app->hasBeenBootstrapped()) {"
+                }
+            },
+            {
+                "class": "Illuminate\\Foundation\\Http\\Kernel",
+                "method": "handle",
+                "args": [
+                    "Illuminate\\Http\\Request"
+                ],
+                "type": "method",
+                "file": "/home/vagrant/code/lumen55/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php",
+                "relative_file": "vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php",
+                "line_number": 116,
+                "code_snippet": {
+                    "106": "     * Handle an incoming HTTP request.",
+                    "107": "     *",
+                    "108": "     * @param  \\Illuminate\\Http\\Request  $request",
+                    "109": "     * @return \\Illuminate\\Http\\Response",
+                    "110": "     */",
+                    "111": "    public function handle($request)",
+                    "112": "    {",
+                    "113": "        try {",
+                    "114": "            $request->enableHttpMethodParameterOverride();",
+                    "115": "",
+                    "116": "            $response = $this->sendRequestThroughRouter($request);",
+                    "117": "        } catch (Exception $e) {",
+                    "118": "            $this->reportException($e);",
+                    "119": "",
+                    "120": "            $response = $this->renderException($request, $e);",
+                    "121": "        } catch (Throwable $e) {",
+                    "122": "            $this->reportException($e = new FatalThrowableError($e));",
+                    "123": "",
+                    "124": "            $response = $this->renderException($request, $e);",
+                    "125": "        }",
+                    "126": ""
+                }
+            },
+            {
+                "class": null,
+                "method": "[top]",
+                "args": [],
+                "type": null,
+                "file": "/home/vagrant/code/lumen55/public/index.php",
+                "relative_file": "public/index.php",
+                "line_number": 55,
+                "code_snippet": {
+                    "45": "| Once we have the application, we can handle the incoming request",
+                    "46": "| through the kernel, and send the associated response back to",
+                    "47": "| the client's browser allowing them to enjoy the creative",
+                    "48": "| and wonderful application we have prepared for them.",
+                    "49": "|",
+                    "50": "*/",
+                    "51": "",
+                    "52": "$kernel = $app->make(Illuminate\\Contracts\\Http\\Kernel::class);",
+                    "53": "",
+                    "54": "$response = $kernel->handle(",
+                    "55": "    $request = Illuminate\\Http\\Request::capture()",
+                    "56": ");",
+                    "57": "",
+                    "58": "$response->send();",
+                    "59": "",
+                    "60": "$kernel->terminate($request, $response);",
+                    "61": ""
+                }
+            }
+        ],
+        "seen_at_microseconds": 1574951311.155193
+    },
+    "config": {
+        "codeEditor": "sublime",
+        "remoteFilePath": "/home/vagrant/code",
+        "localFilePath": "/home/maurizio/code",
+        "navigator": true,
+        "sharing": true,
+        "routePrefix": "_laracatch",
+        "enableRunnableSolutions": true,
+        "directorySeparator":"\/",
+        "theme": "light"
+    },
+    "telescopeUrl": "http://laracatch-ui.test/telescope/exceptions/550e8400-e29b-41d4-a716-446655440000",
+    "shareEndpoint": "http://laracatch-ui.test/_laracatch/share",
+    "defaultTab": "StackTab",
+    "defaultProps": {}
+}

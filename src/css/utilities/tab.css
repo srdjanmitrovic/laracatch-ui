@@ -1,0 +1,23 @@
+:root {
+    --tab-main-height: calc(100vh - 3rem);
+}
+
+.tab-details {
+    @apply bg-white;
+    @apply text-sm;
+    min-height: var(--tab-main-height);
+}
+
+.tab-details pre.sf-dump {
+    @apply block !important;
+}
+
+.tab-details-section {
+    @apply py-8;
+    @apply border-t-2;
+    @apply border-tint-200;
+}
+
+.tab-details-section:first-child {
+    @apply border-t-0;
+}

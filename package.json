@@ -1,0 +1,58 @@
+{
+    "private": true,
+    "scripts": {
+        "start": "webpack-dev-server --mode development",
+        "dev": "webpack --mode development --watch",
+        "build": "NODE_ENV=production webpack --mode production",
+        "format": "prettier --write 'src/**/*.{css,js,vue}'"
+    },
+    "dependencies": {
+        "git-url-parse": "^11.1.2",
+        "highlight.js": "^9.15.10",
+        "javascript-time-ago": "^2.0.1",
+        "lodash": "^4.17.4",
+        "markdown-it": "^9.0.1",
+        "sql-formatter": "^2.3.3",
+        "with-query": "^1.2.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.4.5",
+        "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+        "@babel/plugin-transform-runtime": "^7.4.4",
+        "@babel/preset-env": "^7.4.5",
+        "@fullhuman/postcss-purgecss": "^1.1.0",
+        "babel-loader": "^8.0.6",
+        "css-loader": "^3.0.0",
+        "lint-staged": "^8.1.5",
+        "postcss-import": "^12.0.1",
+        "postcss-loader": "^3.0.0",
+        "postcss-preset-env": "^6.6.0",
+        "prettier": "^1.16.4",
+        "style-loader": "^0.23.1",
+        "tailwindcss": "^1.0.4",
+        "vue": "^2.6.10",
+        "vue-loader": "^15.7.0",
+        "vue-template-compiler": "^2.6.10",
+        "webpack": "^4.35.0",
+        "webpack-assets-manifest": "^3.1.1",
+        "webpack-cli": "^3.3.5",
+        "webpack-dev-server": "^3.8.1"
+    },
+    "lint-staged": {
+        "linters": {
+            "*.{css,js,vue}": [
+                "yarn format",
+                "git add"
+            ]
+        },
+        "ignore": [
+            "compiled/**/*"
+        ]
+    },
+    "jest": {
+        "testPathIgnorePatterns": [
+            "/node_modules/",
+            "/__helpers__/"
+        ]
+    }
+}

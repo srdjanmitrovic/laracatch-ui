@@ -1,0 +1,13 @@
+.exception-message {
+    @apply font-semibold;
+    @apply leading-tight;
+    @apply break-words;
+    @apply overflow-hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+.exception-message-full {
+    -webkit-line-clamp: unset;
+}

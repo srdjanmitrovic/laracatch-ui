@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Laracatch Navigator UI</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" />
+    <link href="/navigate.js" rel="preload" as="script" />
+    <link href="/laracatcher.js" rel="preload" as="script" />
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="text/javascript" src="/navigate.js"></script>
+    <script type="text/javascript" src="/laracatcher.js"></script>
+    <script>
+      window.data = {
+        endpoint: 'http://localhost:8080/_laracatch/api/exceptions',
+        shareEndpoint: 'http://localhost:8080/_laracatch/share',
+        config: {
+          sharing: true
+        }
+      }
+
+      window.Navigator = window.navigate(window.data);
+
+      Navigator.start();
+    </script>
+  </body>
+</html>
