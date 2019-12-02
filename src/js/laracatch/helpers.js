@@ -24,7 +24,7 @@ export function isUnknownFrame(frame) {
  * @return {Boolean}
  */
 export function isVendorFrame(frame) {
-    return frame.relative_file.startsWith('/vendor/');
+    return frame.relative_file.startsWith('vendor/');
 }
 
 /**
