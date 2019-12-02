@@ -48,11 +48,5 @@
         "ignore": [
             "compiled/**/*"
         ]
-    },
-    "jest": {
-        "testPathIgnorePatterns": [
-            "/node_modules/",
-            "/__helpers__/"
-        ]
     }
 }
