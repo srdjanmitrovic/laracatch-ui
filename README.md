@@ -14,7 +14,7 @@ The UI is powered by [Webpack](https://webpack.js.org/), [VueJS](https://vuejs.o
 npm install
 ```
 
-* Develop using a local instance of [webpack-dev-server](https://webpack.js.org/configuration/dev-server/) which provides the UI for Laracatch and Navigator, using a predefined Laracatch error (see https://github.com/laracatch/ui/compiled/data.json)
+* Develop using a local instance of [webpack-dev-server](https://webpack.js.org/configuration/dev-server/) which provides the UI for Laracatch and Navigator, using a predefined [Laracatch error](compiled/data.json)
 
 ```
 npm run start
