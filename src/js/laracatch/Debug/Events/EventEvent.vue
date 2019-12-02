@@ -6,7 +6,7 @@
             </DescriptionListRow>
             <DescriptionListRow label="Params">
                 <details class="border-l-2 border-gray-300 p-2 hover:border-red-500">
-                    <summary class="cursor-pointer focus:shadow-outline">Details</summary>
+                    <summary class="cursor-pointer">Details</summary>
                     <code class="code-block mb-3"
                         ><pre v-html="JSON.stringify(event.metadata.params, null, 2)"></pre
                     ></code>
@@ -15,7 +15,7 @@
             </DescriptionListRow>
             <DescriptionListRow label="Listeners">
                 <details class="border-l-2 border-gray-300 p-2 hover:border-red-500">
-                    <summary class="cursor-pointer focus:shadow-outline">Details</summary>
+                    <summary class="cursor-pointer">Details</summary>
                     <code class="code-block mb-3"
                         ><pre v-html="JSON.stringify(event.metadata.listeners, null, 2)"></pre
                     ></code>

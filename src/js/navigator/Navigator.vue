@@ -28,7 +28,7 @@
             <div
                 v-if="sidebar"
                 :class="{ 'side-open': sidebar }"
-                class="side fixed flex flex-col break-words w-full p-8 md:w-1/2 xl:w-1/4 z-40 bg-gray-300"
+                class="side fixed flex flex-col break-words w-full p-8 md:w-1/2 xl:w-1/4 z-50 bg-gray-100"
                 @click.stop
             >
                 <div class="flex flex-row justify-between">
@@ -91,7 +91,7 @@
             </div>
         </transition>
 
-        <Backdrop v-if="sidebar" />
+        <Backdrop v-if="sidebar && selected" />
 
         <div class="container-fluid py-16 px-6 xl:px-32 mx-auto w-full">
             <div
@@ -158,8 +158,12 @@ export default {
     watch: {
         sidebar(open) {
             if (open) {
+                document.body.classList.add('overflow-hidden');
+
                 window.addEventListener('click', this.toggleSidebar);
             } else {
+                document.body.classList.remove('overflow-hidden');
+
                 window.removeEventListener('click', this.toggleSidebar);
             }
         },

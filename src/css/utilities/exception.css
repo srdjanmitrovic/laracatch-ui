@@ -3,6 +3,7 @@
     @apply leading-tight;
     @apply break-words;
     @apply overflow-hidden;
+    word-break: break-word;
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;

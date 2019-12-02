@@ -11,7 +11,7 @@
         <transition name="top">
             <div
                 v-if="menuVisible"
-                class="absolute mt-6 bg-white border border-gray-300 z-10 right-0 top-full p-8 overflow-visible rounded-lg shadow-md"
+                class="absolute mt-6 bg-white border border-gray-300 z-50 right-0 top-full p-8 overflow-visible rounded-lg shadow-md"
                 @click.stop
                 style="min-width: 20rem;"
             >
