@@ -1,6 +1,6 @@
 <template>
     <div>
-        <Progress v-if="loading" class="z-50" />
+        <Progress v-if="loading" class="z-75" />
 
         <button
             class="absolute m-6 text-gray-600 z-30 hover:text-black glow flex"

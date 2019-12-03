@@ -112,6 +112,7 @@ module.exports = {
             },
             zIndex: {
                 1: '1',
+                75: '75'
             },
             leading: {
                 tight: '1.1',
