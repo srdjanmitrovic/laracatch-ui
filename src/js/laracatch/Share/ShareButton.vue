@@ -81,9 +81,12 @@ export default {
             this.loading = true;
 
             try {
+                const token = document.querySelector('meta[name="csrf-token"]');
+
                 const response = await fetch(this.shareEndpoint, {
                     method: 'POST',
                     headers: {
+                        'X-CSRF-TOKEN': token ? token.content : null,
                         'Content-Type': 'application/json',
                         Accept: 'application/json',
                     },
