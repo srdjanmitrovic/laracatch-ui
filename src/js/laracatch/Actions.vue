@@ -1,12 +1,12 @@
 <template>
     <div class="text-right" :class="{ 'mb-6': navigator || sharing }">
         <template v-if="navigator">
-            <li class="inline-block mr-4">
+            <li class="inline-block">
                 <NavigatorButton />
             </li>
         </template>
         <template v-if="sharing">
-            <li class="inline-block">
+            <li class="inline-block ml-4">
                 <ShareButton />
             </li>
         </template>

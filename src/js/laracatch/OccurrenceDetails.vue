@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="flex items-center w-full" :class="{ 'mb-8': !hideSolutions }">
+        <div class="flex flex-col sm:flex-row items-start sm:items-center w-full" :class="{ 'mb-8': !hideSolutions }">
             <div class="flex flex-col flex-grow">
                 <div class="text-2xl">
                     <ExceptionClass v-if="error.exception_class" :name="error.exception_class" />
@@ -21,7 +21,7 @@
 
             <div class="z-1 flex-none" v-if="solutions.length > 0">
                 <button
-                    class="uppercase tracking-wide text-xs font-bold px-4 py-2 text-white rounded-full bg-green-500 focus:shadow-outline"
+                    class="uppercase tracking-wide text-xs font-bold mt-4 px-4 py-2 text-white rounded-full bg-green-500 focus:shadow-outline"
                     @click="hideSolutions = !hideSolutions"
                 >
                     {{ hideSolutions ? 'Show Solutions' : 'Hide Solutions' }}

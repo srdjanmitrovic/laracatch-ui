@@ -1,7 +1,7 @@
 <template>
-    <div :class="{ 'container-fluid py-8 xl:px-32': !embedded }">
+    <div :class="{ 'container-fluid px-6 py-8 xl:px-32': !embedded }">
         <div class="flex flex-wrap">
-            <div class="w-full xl:mb-0 xl:w-3/4" :class="{ 'px-4 xl:px-6': !embedded }">
+            <div class="w-full xl:mb-0 xl:w-3/4" :class="{ 'xl:px-6': !embedded }">
                 <div class="xl:hidden">
                     <Actions />
                 </div>
@@ -21,7 +21,7 @@
                     <TabDetails v-bind="{ tab }" />
                 </div>
             </div>
-            <div class="w-full px-4 xl:w-1/4 xl:px-6 mt-8 xl:mt-0">
+            <div class="w-full xl:w-1/4 xl:px-6 mt-8 xl:mt-0">
                 <div class="hidden xl:block">
                     <Actions />
                 </div>

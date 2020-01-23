@@ -1,5 +1,5 @@
 <template>
-    <div class="inline-block" @click.stop>
+    <div @click.stop>
         <button
             class="bg-white text-red-500 uppercase tracking-wide text-xs px-4 py-2 rounded-full font-bold border focus:shadow-outline"
             :class="menuVisible ? 'text-gray-800' : ''"

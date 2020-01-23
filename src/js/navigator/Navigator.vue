@@ -103,7 +103,7 @@
             </div>
 
             <div class="flex flex-row w-full flex-wrap">
-                <div class="flex flex-col w-full px-8 md:px-0">
+                <div class="flex flex-col w-full">
                     <div id="content-wrapper" class="rounded-lg"></div>
                 </div>
             </div>
