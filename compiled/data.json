@@ -263,12 +263,12 @@
             },
             "view": null,
             "git": {
-                "isInitialized": false,
-                "hash": "",
-                "message": "",
-                "tag": "",
-                "remote": "",
-                "isDirty": false
+                "is_initialized": true,
+                "hash": "9b4f7278d6df9d014cb1caef964fcbbea6bfb995",
+                "message": "Merge pull request #2 from laracatch/bugfix/bump-symfony-dependencies",
+                "tag": "1.1.1",
+                "remote": "https://github.com/laracatch/client",
+                "is_dirty": true
             }
         },
         "stacktrace": [

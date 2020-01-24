@@ -36,7 +36,7 @@
                         </a>
                     </DescriptionListRow>
                     <DescriptionListRow v-if="git.tag" label="Tag">{{ git.tag }}</DescriptionListRow>
-                    <div class="mt-4 sm:start-2" v-if="git.isDirty">
+                    <div class="mt-4 sm:start-2" v-if="git.is_dirty">
                         <div
                             class="inline-block min-h-0 bg-yellow-100 border-l-4 border-yellow-400 p-4 text-gray-700"
                         >
@@ -44,7 +44,7 @@
                             commit.
                         </div>
                     </div>
-                    <div class="mt-4 sm:start-2" v-if="! git.isInitialized">
+                    <div class="mt-4 sm:start-2" v-if="! git.is_initialized">
                         <div
                             class="inline-block min-h-0 bg-red-100 border-l-4 border-red-400 p-4 text-gray-700"
                         >
