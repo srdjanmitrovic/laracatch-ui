@@ -92,9 +92,13 @@ export default {
 
     computed: {
         classString: function() {
-            const splitClassName = this.error.stacktrace[0].class.split('\\');
+            if (this.error.stacktrace[0].class) {
+                const splitClassName = this.error.stacktrace[0].class.split('\\');
 
-            return splitClassName[splitClassName.length - 1];
+                return splitClassName[splitClassName.length - 1];
+            }
+
+            return this.error.stacktrace[0].file;
         },
 
         version: function() {
