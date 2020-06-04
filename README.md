@@ -1,8 +1,8 @@
 # Laracatch UI
 
-[Laracatch](https://github.com/laracatch/client) is a customizable error page for applications running on Laravel 5.5 and higher. It allows you to catch both browser and console exceptions, and optionally share them on [Laracatch](https://laracatch.com), or a self-hosted version of the [Laracatch Server](https://github.com/laracatch/server).
+[Laracatch](https://github.com/mettle/laracatch-client) is a customizable error page for applications running on Laravel 5.5 and higher. It allows you to catch both browser and console exceptions, and optionally share them on [Laracatch](https://laracatch.com), or a self-hosted version of the [Laracatch Server](https://github.com/mettle/laracatch-server).
 
-This repository contains the code for the UI of both Laracatch [Client](https://github.com/laracatch/client) and [Server](https://github.com/laracatch/server) components, which is provided as a Git submodule.
+This repository contains the code for the UI of both Laracatch [Client](https://github.com/mettle/laracatch-client) and [Server](https://github.com/mettle/laracatch-server) components, which is provided as a Git submodule.
 
 ## Documentation
 
